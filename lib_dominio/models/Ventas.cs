@@ -25,5 +25,5 @@ public partial class Ventas
 
     public virtual Motos MotoNavigation { get; set; } = null!;
 
-    public virtual ICollection<Pago> Pagos { get; set; } = new List<Pago>();
+    public virtual ICollection<Pagos> Pagos { get; set; } = new List<Pagos>();
 }

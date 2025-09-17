@@ -35,9 +35,9 @@ public partial class ConcesionarioContext : DbContext
 
     public virtual DbSet<OrdenServicios> OrdenServicios { get; set; }
 
-    public virtual DbSet<Pago> Pagos { get; set; }
+    public virtual DbSet<Pagos> Pagos { get; set; }
 
-    public virtual DbSet<Proveedore> Proveedores { get; set; }
+    public virtual DbSet<Proveedores> Proveedores { get; set; }
 
     public virtual DbSet<Repuesto> Repuestos { get; set; }
 
@@ -285,7 +285,7 @@ public partial class ConcesionarioContext : DbContext
                 .HasConstraintName("FK__Orden_Ser__servi__6754599E");
         });
 
-        modelBuilder.Entity<Pago>(entity =>
+        modelBuilder.Entity<Pagos>(entity =>
         {
             entity.HasKey(e => e.IdPago).HasName("PK__Pagos__0941B07421C7DD1C");
 
@@ -306,7 +306,7 @@ public partial class ConcesionarioContext : DbContext
                 .HasConstraintName("FK__Pagos__venta__571DF1D5");
         });
 
-        modelBuilder.Entity<Proveedore>(entity =>
+        modelBuilder.Entity<Proveedores>(entity =>
         {
             entity.HasKey(e => e.IdProveedor).HasName("PK__Proveedo__8D3DFE2830CD2C8D");
 

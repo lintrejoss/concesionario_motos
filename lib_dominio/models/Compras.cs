@@ -15,5 +15,5 @@ public partial class Compras
 
     public virtual ICollection<DetalleCompras> DetalleCompras { get; set; } = new List<DetalleCompras>();
 
-    public virtual Proveedore ProveedorNavigation { get; set; } = null!;
+    public virtual Proveedores ProveedorNavigation { get; set; } = null!;
 }
