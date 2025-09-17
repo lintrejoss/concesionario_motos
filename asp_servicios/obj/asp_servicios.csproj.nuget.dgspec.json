@@ -1,0 +1,284 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/lintrejos/concesionario_motos/asp_servicios/asp_servicios.csproj": {}
+  },
+  "projects": {
+    "/Users/lintrejos/concesionario_motos/asp_servicios/asp_servicios.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/lintrejos/concesionario_motos/asp_servicios/asp_servicios.csproj",
+        "projectName": "asp_servicios",
+        "projectPath": "/Users/lintrejos/concesionario_motos/asp_servicios/asp_servicios.csproj",
+        "packagesPath": "/Users/lintrejos/.nuget/packages/",
+        "outputPath": "/Users/lintrejos/concesionario_motos/asp_servicios/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/lintrejos/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/Users/lintrejos/concesionario_motos/lib_aplicaciones/lib_aplicaciones.csproj": {
+                "projectPath": "/Users/lintrejos/concesionario_motos/lib_aplicaciones/lib_aplicaciones.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[9.0.9, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.305/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/lintrejos/concesionario_motos/lib_aplicaciones/lib_aplicaciones.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/lintrejos/concesionario_motos/lib_aplicaciones/lib_aplicaciones.csproj",
+        "projectName": "lib_aplicaciones",
+        "projectPath": "/Users/lintrejos/concesionario_motos/lib_aplicaciones/lib_aplicaciones.csproj",
+        "packagesPath": "/Users/lintrejos/.nuget/packages/",
+        "outputPath": "/Users/lintrejos/concesionario_motos/lib_aplicaciones/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/lintrejos/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/Users/lintrejos/concesionario_motos/lib_dominio/lib_dominio.csproj": {
+                "projectPath": "/Users/lintrejos/concesionario_motos/lib_dominio/lib_dominio.csproj"
+              },
+              "/Users/lintrejos/concesionario_motos/lib_repositorios/lib_repositorios.csproj": {
+                "projectPath": "/Users/lintrejos/concesionario_motos/lib_repositorios/lib_repositorios.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.305/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/lintrejos/concesionario_motos/lib_dominio/lib_dominio.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/lintrejos/concesionario_motos/lib_dominio/lib_dominio.csproj",
+        "projectName": "lib_dominio",
+        "projectPath": "/Users/lintrejos/concesionario_motos/lib_dominio/lib_dominio.csproj",
+        "packagesPath": "/Users/lintrejos/.nuget/packages/",
+        "outputPath": "/Users/lintrejos/concesionario_motos/lib_dominio/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/lintrejos/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.305/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/lintrejos/concesionario_motos/lib_repositorios/lib_repositorios.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/lintrejos/concesionario_motos/lib_repositorios/lib_repositorios.csproj",
+        "projectName": "lib_repositorios",
+        "projectPath": "/Users/lintrejos/concesionario_motos/lib_repositorios/lib_repositorios.csproj",
+        "packagesPath": "/Users/lintrejos/.nuget/packages/",
+        "outputPath": "/Users/lintrejos/concesionario_motos/lib_repositorios/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/lintrejos/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/Users/lintrejos/concesionario_motos/lib_dominio/lib_dominio.csproj": {
+                "projectPath": "/Users/lintrejos/concesionario_motos/lib_dominio/lib_dominio.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.9, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.305/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "3ZGzy/1j+fE=",
+  "success": true,
+  "projectFilePath": "/Users/lintrejos/concesionario_motos/concesionario_motos/asp_servicios/asp_servicios.csproj",
+  "expectedPackageFiles": [
+    "/Users/lintrejos/.nuget/packages/microsoft.aspnetcore.openapi/9.0.9/microsoft.aspnetcore.openapi.9.0.9.nupkg.sha512",
+    "/Users/lintrejos/.nuget/packages/microsoft.openapi/1.6.17/microsoft.openapi.1.6.17.nupkg.sha512"
+  ],
+  "logs": []
+}
