@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace lib_dominio.Entidades;
 
-public partial class Empleado
+public partial class Empleados
 {
     public int IdEmpleado { get; set; }
 
@@ -17,9 +17,9 @@ public partial class Empleado
 
     public string? Email { get; set; }
 
-    public virtual Cargo CargoNavigation { get; set; } = null!;
+    public virtual Cargos CargoNavigation { get; set; } = null!;
 
-    public virtual ICollection<OrdenServicio> OrdenServicios { get; set; } = new List<OrdenServicio>();
+    public virtual ICollection<OrdenServicios> OrdenServicios { get; set; } = new List<OrdenServicios>();
 
-    public virtual ICollection<Venta> Venta { get; set; } = new List<Venta>();
+    public virtual ICollection<Ventas> Venta { get; set; } = new List<Ventas>();
 }

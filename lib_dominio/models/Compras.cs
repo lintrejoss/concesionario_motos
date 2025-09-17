@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace lib_dominio.Entidades;
 
-public partial class Compra
+public partial class Compras
 {
     public int IdCompra { get; set; }
 
@@ -13,7 +13,7 @@ public partial class Compra
 
     public decimal? Total { get; set; }
 
-    public virtual ICollection<DetalleCompra> DetalleCompras { get; set; } = new List<DetalleCompra>();
+    public virtual ICollection<DetalleCompras> DetalleCompras { get; set; } = new List<DetalleCompras>();
 
     public virtual Proveedore ProveedorNavigation { get; set; } = null!;
 }

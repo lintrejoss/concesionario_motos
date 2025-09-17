@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace lib_dominio.Entidades;
 
-public partial class Servicio
+public partial class Servicios
 {
     public int IdServicio { get; set; }
 
@@ -11,5 +11,5 @@ public partial class Servicio
 
     public decimal? CostoBase { get; set; }
 
-    public virtual ICollection<OrdenServicio> OrdenServicios { get; set; } = new List<OrdenServicio>();
+    public virtual ICollection<OrdenServicios> OrdenServicios { get; set; } = new List<OrdenServicios>();
 }

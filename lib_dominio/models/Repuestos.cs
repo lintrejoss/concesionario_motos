@@ -15,7 +15,7 @@ public partial class Repuesto
 
     public decimal Precio { get; set; }
 
-    public virtual ICollection<DetalleCompra> DetalleCompras { get; set; } = new List<DetalleCompra>();
+    public virtual ICollection<DetalleCompras> DetalleCompras { get; set; } = new List<DetalleCompras>();
 
-    public virtual ICollection<DetalleVenta> DetalleVenta { get; set; } = new List<DetalleVenta>();
+    public virtual ICollection<DetalleVentas> DetalleVenta { get; set; } = new List<DetalleVentas>();
 }

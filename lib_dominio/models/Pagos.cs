@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace lib_dominio.Entidades;
 
-public partial class Pago
+public partial class Pagos
 {
     public int IdPago { get; set; }
 
@@ -15,5 +15,5 @@ public partial class Pago
 
     public DateOnly Fecha { get; set; }
 
-    public virtual Venta VentaNavigation { get; set; } = null!;
+    public virtual Ventas VentaNavigation { get; set; } = null!;
 }

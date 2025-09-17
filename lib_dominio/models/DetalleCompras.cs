@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace lib_dominio.Entidades;
 
-public partial class DetalleCompra
+public partial class DetalleCompras
 {
     public int IdDetalle { get; set; }
 
@@ -15,7 +15,7 @@ public partial class DetalleCompra
 
     public decimal? PrecioUnitario { get; set; }
 
-    public virtual Compra CompraNavigation { get; set; } = null!;
+    public virtual Compras CompraNavigation { get; set; } = null!;
 
     public virtual Repuesto RepuestoNavigation { get; set; } = null!;
 }

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace lib_dominio.Entidades;
 
-public partial class Proveedore
+public partial class Proveedores
 {
     public int IdProveedor { get; set; }
 
@@ -13,5 +13,5 @@ public partial class Proveedore
 
     public string? Email { get; set; }
 
-    public virtual ICollection<Compra> Compras { get; set; } = new List<Compra>();
+    public virtual ICollection<Compras> Compras { get; set; } = new List<Compras>();
 }

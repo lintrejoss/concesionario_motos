@@ -15,25 +15,25 @@ public partial class ConcesionarioContext : DbContext
     {
     }
 
-    public virtual DbSet<Cargo> Cargos { get; set; }
+    public virtual DbSet<Cargos> Cargos { get; set; }
 
-    public virtual DbSet<Cliente> Clientes { get; set; }
+    public virtual DbSet<Clientes> Clientes { get; set; }
 
-    public virtual DbSet<Compra> Compras { get; set; }
+    public virtual DbSet<Compras> Compras { get; set; }
 
-    public virtual DbSet<DetalleCompra> DetalleCompras { get; set; }
+    public virtual DbSet<DetalleCompras> DetalleCompras { get; set; }
 
-    public virtual DbSet<DetalleVenta> DetalleVentas { get; set; }
+    public virtual DbSet<DetalleVentas> DetalleVentas { get; set; }
 
-    public virtual DbSet<Empleado> Empleados { get; set; }
+    public virtual DbSet<Empleados> Empleados { get; set; }
 
-    public virtual DbSet<Marca> Marcas { get; set; }
+    public virtual DbSet<Marcas> Marcas { get; set; }
 
-    public virtual DbSet<Modelo> Modelos { get; set; }
+    public virtual DbSet<Modelos> Modelos { get; set; }
 
-    public virtual DbSet<Moto> Motos { get; set; }
+    public virtual DbSet<Motos> Motos { get; set; }
 
-    public virtual DbSet<OrdenServicio> OrdenServicios { get; set; }
+    public virtual DbSet<OrdenServicios> OrdenServicios { get; set; }
 
     public virtual DbSet<Pago> Pagos { get; set; }
 
@@ -41,9 +41,9 @@ public partial class ConcesionarioContext : DbContext
 
     public virtual DbSet<Repuesto> Repuestos { get; set; }
 
-    public virtual DbSet<Servicio> Servicios { get; set; }
+    public virtual DbSet<Servicios> Servicios { get; set; }
 
-    public virtual DbSet<Venta> Ventas { get; set; }
+    public virtual DbSet<Ventas> Ventas { get; set; }
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
@@ -51,7 +51,7 @@ public partial class ConcesionarioContext : DbContext
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
-        modelBuilder.Entity<Cargo>(entity =>
+        modelBuilder.Entity<Cargos>(entity =>
         {
             entity.HasKey(e => e.IdCargo).HasName("PK__Cargos__D3C09EC5616433B0");
 
@@ -62,7 +62,7 @@ public partial class ConcesionarioContext : DbContext
                 .HasColumnName("nombre");
         });
 
-        modelBuilder.Entity<Cliente>(entity =>
+        modelBuilder.Entity<Clientes>(entity =>
         {
             entity.HasKey(e => e.IdCliente).HasName("PK__Clientes__677F38F5FE87AE92");
 
@@ -91,7 +91,7 @@ public partial class ConcesionarioContext : DbContext
                 .HasColumnName("telefono");
         });
 
-        modelBuilder.Entity<Compra>(entity =>
+        modelBuilder.Entity<Compras>(entity =>
         {
             entity.HasKey(e => e.IdCompra).HasName("PK__Compras__C4BAA604D9434B9F");
 
@@ -108,7 +108,7 @@ public partial class ConcesionarioContext : DbContext
                 .HasConstraintName("FK__Compras__proveed__5BE2A6F2");
         });
 
-        modelBuilder.Entity<DetalleCompra>(entity =>
+        modelBuilder.Entity<DetalleCompras>(entity =>
         {
             entity.HasKey(e => e.IdDetalle).HasName("PK__Detalle___4F1332DEFD9219E4");
 
@@ -133,7 +133,7 @@ public partial class ConcesionarioContext : DbContext
                 .HasConstraintName("FK__Detalle_C__repue__5FB337D6");
         });
 
-        modelBuilder.Entity<DetalleVenta>(entity =>
+        modelBuilder.Entity<DetalleVentas>(entity =>
         {
             entity.HasKey(e => e.IdDetalle).HasName("PK__Detalle___4F1332DEAB53E0A1");
 
@@ -156,7 +156,7 @@ public partial class ConcesionarioContext : DbContext
                 .HasConstraintName("FK__Detalle_V__venta__52593CB8");
         });
 
-        modelBuilder.Entity<Empleado>(entity =>
+        modelBuilder.Entity<Empleados>(entity =>
         {
             entity.HasKey(e => e.IdEmpleado).HasName("PK__Empleado__88B51394C7BA70D1");
 
@@ -187,7 +187,7 @@ public partial class ConcesionarioContext : DbContext
                 .HasConstraintName("FK__Empleados__cargo__4AB81AF0");
         });
 
-        modelBuilder.Entity<Marca>(entity =>
+        modelBuilder.Entity<Marcas>(entity =>
         {
             entity.HasKey(e => e.IdMarca).HasName("PK__Marcas__7E43E99E55835029");
 
@@ -198,7 +198,7 @@ public partial class ConcesionarioContext : DbContext
                 .HasColumnName("nombre");
         });
 
-        modelBuilder.Entity<Modelo>(entity =>
+        modelBuilder.Entity<Modelos>(entity =>
         {
             entity.HasKey(e => e.IdModelo).HasName("PK__Modelos__B3BFCFF1402B3D44");
 
@@ -217,7 +217,7 @@ public partial class ConcesionarioContext : DbContext
                 .HasConstraintName("FK__Modelos__marca__398D8EEE");
         });
 
-        modelBuilder.Entity<Moto>(entity =>
+        modelBuilder.Entity<Motos>(entity =>
         {
             entity.HasKey(e => e.IdMoto).HasName("PK__Motos__82C02307BEEBC725");
 
@@ -248,7 +248,7 @@ public partial class ConcesionarioContext : DbContext
                 .HasConstraintName("FK__Motos__modelo__440B1D61");
         });
 
-        modelBuilder.Entity<OrdenServicio>(entity =>
+        modelBuilder.Entity<OrdenServicios>(entity =>
         {
             entity.HasKey(e => e.IdOrden).HasName("PK__Orden_Se__DD5B8F3321FB6887");
 
@@ -346,7 +346,7 @@ public partial class ConcesionarioContext : DbContext
             entity.Property(e => e.Stock).HasColumnName("stock");
         });
 
-        modelBuilder.Entity<Servicio>(entity =>
+        modelBuilder.Entity<Servicios>(entity =>
         {
             entity.HasKey(e => e.IdServicio).HasName("PK__Servicio__6FD07FDCBEA8B8C7");
 
@@ -360,7 +360,7 @@ public partial class ConcesionarioContext : DbContext
                 .HasColumnName("nombre");
         });
 
-        modelBuilder.Entity<Venta>(entity =>
+        modelBuilder.Entity<Ventas>(entity =>
         {
             entity.HasKey(e => e.IdVenta).HasName("PK__Ventas__459533BF5E0F6464");
 

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace lib_dominio.Entidades;
 
-public partial class DetalleVenta
+public partial class DetalleVentas
 {
     public int IdDetalle { get; set; }
 
@@ -17,5 +17,5 @@ public partial class DetalleVenta
 
     public virtual Repuesto? RepuestoNavigation { get; set; }
 
-    public virtual Venta VentaNavigation { get; set; } = null!;
+    public virtual Ventas VentaNavigation { get; set; } = null!;
 }

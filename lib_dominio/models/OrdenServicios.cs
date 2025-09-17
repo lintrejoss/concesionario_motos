@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace lib_dominio.Entidades;
 
-public partial class OrdenServicio
+public partial class OrdenServicios
 {
     public int IdOrden { get; set; }
 
@@ -19,11 +19,11 @@ public partial class OrdenServicio
 
     public decimal? CostoTotal { get; set; }
 
-    public virtual Cliente ClienteNavigation { get; set; } = null!;
+    public virtual Clientes ClienteNavigation { get; set; } = null!;
 
-    public virtual Empleado EmpleadoNavigation { get; set; } = null!;
+    public virtual Empleados EmpleadoNavigation { get; set; } = null!;
 
-    public virtual Moto MotoNavigation { get; set; } = null!;
+    public virtual Motos MotoNavigation { get; set; } = null!;
 
-    public virtual Servicio ServicioNavigation { get; set; } = null!;
+    public virtual Servicios ServicioNavigation { get; set; } = null!;
 }

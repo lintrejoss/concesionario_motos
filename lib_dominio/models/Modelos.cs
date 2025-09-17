@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace lib_dominio.Entidades;
 
-public partial class Modelo
+public partial class Modelos
 {
     public int IdModelo { get; set; }
 
@@ -15,7 +15,7 @@ public partial class Modelo
 
     public int? Anio { get; set; }
 
-    public virtual Marca MarcaNavigation { get; set; } = null!;
+    public virtual Marcas MarcaNavigation { get; set; } = null!;
 
-    public virtual ICollection<Moto> Motos { get; set; } = new List<Moto>();
+    public virtual ICollection<Motos> Motos { get; set; } = new List<Motos>();
 }
