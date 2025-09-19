@@ -1,42 +1,42 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\juang\\Desktop\\Concesionario\\",
+  "WorkspaceRootPath": "C:\\Users\\juang\\Desktop\\concesionario_motos\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3EEC43DE-9AB0-4D1C-A06B-924222336CC4}|Repositorio\\Repositorio.csproj|c:\\users\\juang\\desktop\\concesionario\\repositorio\\script.sql||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "AbsoluteMoniker": "D:0:0:{EC0DCA0D-7C7E-4BFC-81D3-E9B07F3159BC}|Dominio\\Dominio.csproj|c:\\users\\juang\\desktop\\concesionario_motos\\dominio\\nucleo\\datosgenerales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC0DCA0D-7C7E-4BFC-81D3-E9B07F3159BC}|Dominio\\Dominio.csproj|solutionrelative:dominio\\nucleo\\datosgenerales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3A42E3F-64F3-427F-BE5F-D0463417B7D4}|ut_presentacion\\ut_presentacion.csproj|c:\\users\\juang\\desktop\\concesionario_motos\\ut_presentacion\\repositorios\\cargosrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3A42E3F-64F3-427F-BE5F-D0463417B7D4}|ut_presentacion\\ut_presentacion.csproj|solutionrelative:ut_presentacion\\repositorios\\cargosrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D107F4C8-89CC-BEA8-D3D7-CA6B7733353D}|Elementos de la soluci\u00F3n{D107F4C8-89CC-BEA8-D3D7-CA6B7733353D}|C:\\Users\\juang\\Desktop\\concesionario_motos\\secrets.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D107F4C8-89CC-BEA8-D3D7-CA6B7733353D}|Elementos de la soluci\u00F3n{D107F4C8-89CC-BEA8-D3D7-CA6B7733353D}|solutionrelative:secrets.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EEC43DE-9AB0-4D1C-A06B-924222336CC4}|Repositorio\\Repositorio.csproj|c:\\users\\juang\\desktop\\concesionario_motos\\repositorio\\script.sql||{3B902123-F8A7-4915-9F01-361F908088D0}",
       "RelativeMoniker": "D:0:0:{3EEC43DE-9AB0-4D1C-A06B-924222336CC4}|Repositorio\\Repositorio.csproj|solutionrelative:repositorio\\script.sql||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D3A42E3F-64F3-427F-BE5F-D0463417B7D4}|ut_presentacion\\ut_presentacion.csproj|c:\\users\\juang\\desktop\\concesionario\\ut_presentacion\\nucleo\\entidadesnucleo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D3A42E3F-64F3-427F-BE5F-D0463417B7D4}|ut_presentacion\\ut_presentacion.csproj|solutionrelative:ut_presentacion\\nucleo\\entidadesnucleo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EC0DCA0D-7C7E-4BFC-81D3-E9B07F3159BC}|Dominio\\Dominio.csproj|c:\\users\\juang\\desktop\\concesionario_motos\\dominio\\entidades\\detalle_compras.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC0DCA0D-7C7E-4BFC-81D3-E9B07F3159BC}|Dominio\\Dominio.csproj|solutionrelative:dominio\\entidades\\detalle_compras.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D3A42E3F-64F3-427F-BE5F-D0463417B7D4}|ut_presentacion\\ut_presentacion.csproj|c:\\users\\juang\\desktop\\concesionario\\ut_presentacion\\repositorios\\repuestosrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D3A42E3F-64F3-427F-BE5F-D0463417B7D4}|ut_presentacion\\ut_presentacion.csproj|solutionrelative:ut_presentacion\\repositorios\\repuestosrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EC0DCA0D-7C7E-4BFC-81D3-E9B07F3159BC}|Dominio\\Dominio.csproj|c:\\users\\juang\\desktop\\concesionario_motos\\dominio\\entidades\\cargos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC0DCA0D-7C7E-4BFC-81D3-E9B07F3159BC}|Dominio\\Dominio.csproj|solutionrelative:dominio\\entidades\\cargos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D3A42E3F-64F3-427F-BE5F-D0463417B7D4}|ut_presentacion\\ut_presentacion.csproj|c:\\users\\juang\\desktop\\concesionario\\ut_presentacion\\repositorios\\motosrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D3A42E3F-64F3-427F-BE5F-D0463417B7D4}|ut_presentacion\\ut_presentacion.csproj|solutionrelative:ut_presentacion\\repositorios\\motosrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D3A42E3F-64F3-427F-BE5F-D0463417B7D4}|ut_presentacion\\ut_presentacion.csproj|c:\\users\\juang\\desktop\\concesionario_motos\\ut_presentacion\\repositorios\\clientesrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3A42E3F-64F3-427F-BE5F-D0463417B7D4}|ut_presentacion\\ut_presentacion.csproj|solutionrelative:ut_presentacion\\repositorios\\clientesrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EC0DCA0D-7C7E-4BFC-81D3-E9B07F3159BC}|Dominio\\Dominio.csproj|c:\\users\\juang\\desktop\\concesionario\\dominio\\entidades\\empleados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC0DCA0D-7C7E-4BFC-81D3-E9B07F3159BC}|Dominio\\Dominio.csproj|solutionrelative:dominio\\entidades\\empleados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D3A42E3F-64F3-427F-BE5F-D0463417B7D4}|ut_presentacion\\ut_presentacion.csproj|c:\\users\\juang\\desktop\\concesionario_motos\\ut_presentacion\\repositorios\\pagosrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3A42E3F-64F3-427F-BE5F-D0463417B7D4}|ut_presentacion\\ut_presentacion.csproj|solutionrelative:ut_presentacion\\repositorios\\pagosrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D3A42E3F-64F3-427F-BE5F-D0463417B7D4}|ut_presentacion\\ut_presentacion.csproj|c:\\users\\juang\\desktop\\concesionario\\ut_presentacion\\repositorios\\empleadosrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D3A42E3F-64F3-427F-BE5F-D0463417B7D4}|ut_presentacion\\ut_presentacion.csproj|solutionrelative:ut_presentacion\\repositorios\\empleadosrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EC0DCA0D-7C7E-4BFC-81D3-E9B07F3159BC}|Dominio\\Dominio.csproj|c:\\users\\juang\\desktop\\concesionario\\dominio\\entidades\\modelos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC0DCA0D-7C7E-4BFC-81D3-E9B07F3159BC}|Dominio\\Dominio.csproj|solutionrelative:dominio\\entidades\\modelos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D3A42E3F-64F3-427F-BE5F-D0463417B7D4}|ut_presentacion\\ut_presentacion.csproj|c:\\users\\juang\\desktop\\concesionario\\ut_presentacion\\repositorios\\modelosrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D3A42E3F-64F3-427F-BE5F-D0463417B7D4}|ut_presentacion\\ut_presentacion.csproj|solutionrelative:ut_presentacion\\repositorios\\modelosrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D3A42E3F-64F3-427F-BE5F-D0463417B7D4}|ut_presentacion\\ut_presentacion.csproj|c:\\users\\juang\\desktop\\concesionario\\ut_presentacion\\repositorios\\detalle_comprasrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D3A42E3F-64F3-427F-BE5F-D0463417B7D4}|ut_presentacion\\ut_presentacion.csproj|solutionrelative:ut_presentacion\\repositorios\\detalle_comprasrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D3A42E3F-64F3-427F-BE5F-D0463417B7D4}|ut_presentacion\\ut_presentacion.csproj|c:\\users\\juang\\desktop\\concesionario_motos\\ut_presentacion\\ut_presentacion.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D3A42E3F-64F3-427F-BE5F-D0463417B7D4}|ut_presentacion\\ut_presentacion.csproj|solutionrelative:ut_presentacion\\ut_presentacion.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,124 +46,117 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "RepuestosRepositorio.cs",
-              "DocumentMoniker": "C:\\Users\\juang\\Desktop\\Concesionario\\ut_presentacion\\Repositorios\\RepuestosRepositorio.cs",
-              "RelativeDocumentMoniker": "ut_presentacion\\Repositorios\\RepuestosRepositorio.cs",
-              "ToolTip": "C:\\Users\\juang\\Desktop\\Concesionario\\ut_presentacion\\Repositorios\\RepuestosRepositorio.cs",
-              "RelativeToolTip": "ut_presentacion\\Repositorios\\RepuestosRepositorio.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAkAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "DatosGenerales.cs",
+              "DocumentMoniker": "C:\\Users\\juang\\Desktop\\concesionario_motos\\Dominio\\Nucleo\\DatosGenerales.cs",
+              "RelativeDocumentMoniker": "Dominio\\Nucleo\\DatosGenerales.cs",
+              "ToolTip": "C:\\Users\\juang\\Desktop\\concesionario_motos\\Dominio\\Nucleo\\DatosGenerales.cs",
+              "RelativeToolTip": "Dominio\\Nucleo\\DatosGenerales.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAABVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-19T01:06:07.947Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MotosRepositorio.cs",
-              "DocumentMoniker": "C:\\Users\\juang\\Desktop\\Concesionario\\ut_presentacion\\Repositorios\\MotosRepositorio.cs",
-              "RelativeDocumentMoniker": "ut_presentacion\\Repositorios\\MotosRepositorio.cs",
-              "ToolTip": "C:\\Users\\juang\\Desktop\\Concesionario\\ut_presentacion\\Repositorios\\MotosRepositorio.cs",
-              "RelativeToolTip": "ut_presentacion\\Repositorios\\MotosRepositorio.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-19T01:03:41.76Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Modelos.cs",
-              "DocumentMoniker": "C:\\Users\\juang\\Desktop\\Concesionario\\Dominio\\Entidades\\Modelos.cs",
-              "RelativeDocumentMoniker": "Dominio\\Entidades\\Modelos.cs",
-              "ToolTip": "C:\\Users\\juang\\Desktop\\Concesionario\\Dominio\\Entidades\\Modelos.cs",
-              "RelativeToolTip": "Dominio\\Entidades\\Modelos.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-19T00:56:43.822Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ModelosRepositorio.cs",
-              "DocumentMoniker": "C:\\Users\\juang\\Desktop\\Concesionario\\ut_presentacion\\Repositorios\\ModelosRepositorio.cs",
-              "RelativeDocumentMoniker": "ut_presentacion\\Repositorios\\ModelosRepositorio.cs",
-              "ToolTip": "C:\\Users\\juang\\Desktop\\Concesionario\\ut_presentacion\\Repositorios\\ModelosRepositorio.cs",
-              "RelativeToolTip": "ut_presentacion\\Repositorios\\ModelosRepositorio.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-19T00:55:34.989Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Empleados.cs",
-              "DocumentMoniker": "C:\\Users\\juang\\Desktop\\Concesionario\\Dominio\\Entidades\\Empleados.cs",
-              "RelativeDocumentMoniker": "Dominio\\Entidades\\Empleados.cs",
-              "ToolTip": "C:\\Users\\juang\\Desktop\\Concesionario\\Dominio\\Entidades\\Empleados.cs",
-              "RelativeToolTip": "Dominio\\Entidades\\Empleados.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-19T00:54:52.367Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "EmpleadosRepositorio.cs",
-              "DocumentMoniker": "C:\\Users\\juang\\Desktop\\Concesionario\\ut_presentacion\\Repositorios\\EmpleadosRepositorio.cs",
-              "RelativeDocumentMoniker": "ut_presentacion\\Repositorios\\EmpleadosRepositorio.cs",
-              "ToolTip": "C:\\Users\\juang\\Desktop\\Concesionario\\ut_presentacion\\Repositorios\\EmpleadosRepositorio.cs",
-              "RelativeToolTip": "ut_presentacion\\Repositorios\\EmpleadosRepositorio.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAowBMAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-19T00:54:07.084Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Detalle_ComprasRepositorio.cs",
-              "DocumentMoniker": "C:\\Users\\juang\\Desktop\\Concesionario\\ut_presentacion\\Repositorios\\Detalle_ComprasRepositorio.cs",
-              "RelativeDocumentMoniker": "ut_presentacion\\Repositorios\\Detalle_ComprasRepositorio.cs",
-              "ToolTip": "C:\\Users\\juang\\Desktop\\Concesionario\\ut_presentacion\\Repositorios\\Detalle_ComprasRepositorio.cs",
-              "RelativeToolTip": "ut_presentacion\\Repositorios\\Detalle_ComprasRepositorio.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-19T00:46:13.958Z",
+              "WhenOpened": "2025-09-19T23:28:28.758Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "EntidadesNucleo.cs",
-              "DocumentMoniker": "C:\\Users\\juang\\Desktop\\Concesionario\\ut_presentacion\\Nucleo\\EntidadesNucleo.cs",
-              "RelativeDocumentMoniker": "ut_presentacion\\Nucleo\\EntidadesNucleo.cs",
-              "ToolTip": "C:\\Users\\juang\\Desktop\\Concesionario\\ut_presentacion\\Nucleo\\EntidadesNucleo.cs",
-              "RelativeToolTip": "ut_presentacion\\Nucleo\\EntidadesNucleo.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAowBsAAAAgAAAAAAAAAA==",
+              "Title": "CargosRepositorio.cs",
+              "DocumentMoniker": "C:\\Users\\juang\\Desktop\\concesionario_motos\\ut_presentacion\\Repositorios\\CargosRepositorio.cs",
+              "RelativeDocumentMoniker": "ut_presentacion\\Repositorios\\CargosRepositorio.cs",
+              "ToolTip": "C:\\Users\\juang\\Desktop\\concesionario_motos\\ut_presentacion\\Repositorios\\CargosRepositorio.cs",
+              "RelativeToolTip": "ut_presentacion\\Repositorios\\CargosRepositorio.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-19T00:44:09.204Z",
+              "WhenOpened": "2025-09-19T22:24:51.335Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "script.sql",
-              "DocumentMoniker": "C:\\Users\\juang\\Desktop\\Concesionario\\Repositorio\\script.sql",
+              "DocumentMoniker": "C:\\Users\\juang\\Desktop\\concesionario_motos\\Repositorio\\script.sql",
               "RelativeDocumentMoniker": "Repositorio\\script.sql",
-              "ToolTip": "C:\\Users\\juang\\Desktop\\Concesionario\\Repositorio\\script.sql",
+              "ToolTip": "C:\\Users\\juang\\Desktop\\concesionario_motos\\Repositorio\\script.sql",
               "RelativeToolTip": "Repositorio\\script.sql",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAOIAAAAAAAAAAAAAwAABAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2025-09-18T23:25:49.287Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-19T22:23:23.601Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "secrets.json",
+              "DocumentMoniker": "C:\\Users\\juang\\Desktop\\concesionario_motos\\secrets.json",
+              "RelativeDocumentMoniker": "secrets.json",
+              "ToolTip": "C:\\Users\\juang\\Desktop\\concesionario_motos\\secrets.json",
+              "RelativeToolTip": "secrets.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-09-19T22:22:04.014Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Detalle_Compras.cs",
+              "DocumentMoniker": "C:\\Users\\juang\\Desktop\\concesionario_motos\\Dominio\\Entidades\\Detalle_Compras.cs",
+              "RelativeDocumentMoniker": "Dominio\\Entidades\\Detalle_Compras.cs",
+              "ToolTip": "C:\\Users\\juang\\Desktop\\concesionario_motos\\Dominio\\Entidades\\Detalle_Compras.cs",
+              "RelativeToolTip": "Dominio\\Entidades\\Detalle_Compras.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T22:21:37.332Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Cargos.cs",
+              "DocumentMoniker": "C:\\Users\\juang\\Desktop\\concesionario_motos\\Dominio\\Entidades\\Cargos.cs",
+              "RelativeDocumentMoniker": "Dominio\\Entidades\\Cargos.cs",
+              "ToolTip": "C:\\Users\\juang\\Desktop\\concesionario_motos\\Dominio\\Entidades\\Cargos.cs",
+              "RelativeToolTip": "Dominio\\Entidades\\Cargos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T22:21:29.107Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PagosRepositorio.cs",
+              "DocumentMoniker": "C:\\Users\\juang\\Desktop\\concesionario_motos\\ut_presentacion\\Repositorios\\PagosRepositorio.cs",
+              "RelativeDocumentMoniker": "ut_presentacion\\Repositorios\\PagosRepositorio.cs",
+              "ToolTip": "C:\\Users\\juang\\Desktop\\concesionario_motos\\ut_presentacion\\Repositorios\\PagosRepositorio.cs",
+              "RelativeToolTip": "ut_presentacion\\Repositorios\\PagosRepositorio.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAwwDIAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T22:07:15.065Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ClientesRepositorio.cs",
+              "DocumentMoniker": "C:\\Users\\juang\\Desktop\\concesionario_motos\\ut_presentacion\\Repositorios\\ClientesRepositorio.cs",
+              "RelativeDocumentMoniker": "ut_presentacion\\Repositorios\\ClientesRepositorio.cs",
+              "ToolTip": "C:\\Users\\juang\\Desktop\\concesionario_motos\\ut_presentacion\\Repositorios\\ClientesRepositorio.cs",
+              "RelativeToolTip": "ut_presentacion\\Repositorios\\ClientesRepositorio.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T22:05:01.332Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ut_presentacion.csproj",
+              "DocumentMoniker": "C:\\Users\\juang\\Desktop\\concesionario_motos\\ut_presentacion\\ut_presentacion.csproj",
+              "RelativeDocumentMoniker": "ut_presentacion\\ut_presentacion.csproj",
+              "ToolTip": "C:\\Users\\juang\\Desktop\\concesionario_motos\\ut_presentacion\\ut_presentacion.csproj",
+              "RelativeToolTip": "ut_presentacion\\ut_presentacion.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-09-19T22:04:56.994Z"
             }
           ]
         }

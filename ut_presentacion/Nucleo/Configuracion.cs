@@ -3,23 +3,23 @@ namespace ut_presentacion.Nucleo
 {
     public class Configuracion
     {
-        private static Dictionary<string, string>? datos = null;
+        private static Dictionary<string, string>? Marcas= null;
         public static string ObtenerValor(string clave)
         {
             string respuesta = "";
-            if (datos == null)
+            if (Marcas== null)
                 Cargar();
-            respuesta = datos![clave].ToString();
+            respuesta = Marcas![clave].ToString();
             return respuesta;
         }
         public static void Cargar()
         {
             if (!File.Exists(DatosGenerales.ruta_json))
                 return;
-            datos = new Dictionary<string, string>();
+            Marcas= new Dictionary<string, string>();
             StreamReader jsonStream = File.OpenText(DatosGenerales.ruta_json);
             var json = jsonStream.ReadToEnd();
-            datos = JsonConversor.ConvertirAObjeto<Dictionary<string,
+            Marcas= JsonConversor.ConvertirAObjeto<Dictionary<string,
            string>>(json)!;
         }
     }
