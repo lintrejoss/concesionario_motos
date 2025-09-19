@@ -1,6 +1,6 @@
 ﻿using System.Security.Cryptography;
 using System.Text;
-namespace lib_dominio.Nucleo
+namespace Dominio.Nucleo
 {
     public class EncriptarConversor
     {

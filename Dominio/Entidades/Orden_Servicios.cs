@@ -14,18 +14,14 @@ namespace Dominio.Entidades
         public int EmpleadoId { get; set; }
         public int ServicioId { get; set; }
         public DateTime Fecha { get; set; }
-        public decimal? CostoTotal { get; set; }
+        public decimal CostoTotal { get; set; }
 
-        // Relacion con Cliente
-        [ForeignKey("ClienteId")] public Clientes Clientes { get; set; }
+        [ForeignKey("ClienteId")] public Clientes? Clientes { get; set; }
 
-        // Relacion con Moto
-        [ForeignKey("MotoId")] public Motos Motos { get; set; }
+        [ForeignKey("MotoId")] public Motos? Motos { get; set; }
 
-        // Relacion con Empleado
-        [ForeignKey("EmpleadoId")] public Empleados Empleados { get; set; }
+        [ForeignKey("EmpleadoId")] public Empleados? Empleados { get; set; }
 
-        // Relacion con Servicio
-        [ForeignKey("ServicioId")] public Servicios Servicios { get; set; }
+        [ForeignKey("ServicioId")] public Servicios? Servicios { get; set; }
     }
 }

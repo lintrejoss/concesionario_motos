@@ -10,11 +10,11 @@ namespace Dominio.Entidades
     {
         [Key] public int IdDetalle { get; set; }
         public int VentaId { get; set; }
-        public int? RepuestoId { get; set; }
+        public int RepuestoId { get; set; }
         public int Cantidad { get; set; }
         public decimal PrecioUnitario { get; set; }
 
-        [ForeignKey("VentaId")] public Ventas Ventas { get; set; }
-        [ForeignKey("RepuestoId")] public Repuestos Repuestos { get; set; }
+        [ForeignKey("VentaId")] public Ventas? Ventas { get; set; }
+        [ForeignKey("RepuestoId")] public Repuestos? Repuestos { get; set; }
     }
 }

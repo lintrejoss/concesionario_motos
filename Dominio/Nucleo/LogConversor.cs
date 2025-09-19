@@ -1,4 +1,4 @@
-﻿namespace lib_dominio.Nucleo
+﻿namespace Dominio.Nucleo
 {
     public class LogConversor
     {

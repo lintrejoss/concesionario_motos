@@ -15,11 +15,11 @@ namespace Dominio.Entidades
         public int MotoId { get; set; }
         public decimal Total { get; set; }
 
-        [ForeignKey("ClienteId")] public Clientes Clientes { get; set; }
-        [ForeignKey("EmpleadoId")] public Empleados Empleados { get; set; }
-        [ForeignKey("MotoId")] public Motos Motos { get; set; }
+        [ForeignKey("ClienteId")] public Clientes? Clientes { get; set; }
+        [ForeignKey("EmpleadoId")] public Empleados? Empleados { get; set; }
+        [ForeignKey("MotoId")] public Motos? Motos { get; set; }
 
-        [NotMapped] public ICollection<Detalle_Ventas> Detalles_Ventas { get; set; }
-        [NotMapped] public ICollection<Pagos> Pagos { get; set; }
+        [NotMapped] public ICollection<Detalle_Ventas>? Detalles_Ventas { get; set; }
+        [NotMapped] public ICollection<Pagos>? Pagos { get; set; }
     }
 }

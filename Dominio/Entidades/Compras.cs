@@ -11,10 +11,10 @@ namespace Dominio.Entidades
         [Key] public int IdCompra { get; set; }
         public int ProveedorId { get; set; }
         public DateTime Fecha { get; set; }
-        public decimal? Total { get; set; }
+        public decimal Total { get; set; }
 
-        [ForeignKey("ProveedorId")] public Proveedores Proveedores { get; set; }
+        [ForeignKey("ProveedorId")] public Proveedores? Proveedores { get; set; }
 
-        [NotMapped] public ICollection<Detalle_Compras> Detalles_Compras { get; set; }
+        [NotMapped] public ICollection<Detalle_Compras>? Detalles_Compras { get; set; }
     }
 }

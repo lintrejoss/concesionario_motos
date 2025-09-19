@@ -10,10 +10,10 @@ namespace Dominio.Entidades
     {
         [Key] public int IdPago { get; set; }
         public int VentaId { get; set; }
-        public string MetodoPago { get; set; }
+        public string? MetodoPago { get; set; }
         public decimal Monto { get; set; }
         public DateTime Fecha { get; set; }
 
-        [ForeignKey("VentaId")] public Ventas Ventas { get; set; }
+        [ForeignKey("VentaId")] public Ventas? Ventas { get; set; }
     }
 }

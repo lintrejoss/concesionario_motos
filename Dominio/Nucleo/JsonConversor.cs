@@ -1,6 +1,6 @@
 ﻿using Newtonsoft.Json.Linq;
 using Newtonsoft.Json;
-namespace lib_dominio.Nucleo
+namespace Dominio.Nucleo
 {
     public class JsonConversor
     {

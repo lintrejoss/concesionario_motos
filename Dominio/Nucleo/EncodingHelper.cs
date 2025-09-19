@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace lib_dominio.Nucleo
+namespace Dominio.Nucleo
 {
     public class EncodingHelper
     {

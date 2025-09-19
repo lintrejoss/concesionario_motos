@@ -10,12 +10,12 @@ namespace Dominio.Entidades
     {
         [Key] public int IdModelo { get; set; }
         public int MarcaId { get; set; }
-        public string Nombre { get; set; }
-        public int? Cilindraje { get; set; }
-        public int? Anio { get; set; }
+        public string? Nombre { get; set; }
+        public int Cilindraje { get; set; }
+        public int Año { get; set; }
 
-        [ForeignKey("MarcaId")] public Marcas Marcas { get; set; }
+        [ForeignKey("MarcaId")] public Marcas? Marcas { get; set; }
 
-        [NotMapped] public ICollection<Motos> Motos { get; set; }
+        [NotMapped] public ICollection<Motos>? Motos { get; set; }
     }
 }

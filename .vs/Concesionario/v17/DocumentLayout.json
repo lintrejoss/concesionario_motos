@@ -1,94 +1,42 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\salak401\\Desktop\\Concesionario\\",
+  "WorkspaceRootPath": "C:\\Users\\juang\\Desktop\\Concesionario\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EC0DCA0D-7C7E-4BFC-81D3-E9B07F3159BC}|Dominio\\Dominio.csproj|c:\\users\\salak401\\desktop\\concesionario\\dominio\\dominio.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{EC0DCA0D-7C7E-4BFC-81D3-E9B07F3159BC}|Dominio\\Dominio.csproj|solutionrelative:dominio\\dominio.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{3EEC43DE-9AB0-4D1C-A06B-924222336CC4}|Repositorio\\Repositorio.csproj|c:\\users\\juang\\desktop\\concesionario\\repositorio\\script.sql||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{3EEC43DE-9AB0-4D1C-A06B-924222336CC4}|Repositorio\\Repositorio.csproj|solutionrelative:repositorio\\script.sql||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EC0DCA0D-7C7E-4BFC-81D3-E9B07F3159BC}|Dominio\\Dominio.csproj|c:\\users\\salak401\\desktop\\concesionario\\dominio\\nucleo\\datosgenerales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC0DCA0D-7C7E-4BFC-81D3-E9B07F3159BC}|Dominio\\Dominio.csproj|solutionrelative:dominio\\nucleo\\datosgenerales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D3A42E3F-64F3-427F-BE5F-D0463417B7D4}|ut_presentacion\\ut_presentacion.csproj|c:\\users\\juang\\desktop\\concesionario\\ut_presentacion\\nucleo\\entidadesnucleo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3A42E3F-64F3-427F-BE5F-D0463417B7D4}|ut_presentacion\\ut_presentacion.csproj|solutionrelative:ut_presentacion\\nucleo\\entidadesnucleo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EC0DCA0D-7C7E-4BFC-81D3-E9B07F3159BC}|Dominio\\Dominio.csproj|c:\\users\\salak401\\desktop\\concesionario\\dominio\\nucleo\\logconversor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC0DCA0D-7C7E-4BFC-81D3-E9B07F3159BC}|Dominio\\Dominio.csproj|solutionrelative:dominio\\nucleo\\logconversor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D3A42E3F-64F3-427F-BE5F-D0463417B7D4}|ut_presentacion\\ut_presentacion.csproj|c:\\users\\juang\\desktop\\concesionario\\ut_presentacion\\repositorios\\repuestosrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3A42E3F-64F3-427F-BE5F-D0463417B7D4}|ut_presentacion\\ut_presentacion.csproj|solutionrelative:ut_presentacion\\repositorios\\repuestosrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EC0DCA0D-7C7E-4BFC-81D3-E9B07F3159BC}|Dominio\\Dominio.csproj|c:\\users\\salak401\\desktop\\concesionario\\dominio\\nucleo\\jsonconversor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC0DCA0D-7C7E-4BFC-81D3-E9B07F3159BC}|Dominio\\Dominio.csproj|solutionrelative:dominio\\nucleo\\jsonconversor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D3A42E3F-64F3-427F-BE5F-D0463417B7D4}|ut_presentacion\\ut_presentacion.csproj|c:\\users\\juang\\desktop\\concesionario\\ut_presentacion\\repositorios\\motosrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3A42E3F-64F3-427F-BE5F-D0463417B7D4}|ut_presentacion\\ut_presentacion.csproj|solutionrelative:ut_presentacion\\repositorios\\motosrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EC0DCA0D-7C7E-4BFC-81D3-E9B07F3159BC}|Dominio\\Dominio.csproj|c:\\users\\salak401\\desktop\\concesionario\\dominio\\nucleo\\enumerables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC0DCA0D-7C7E-4BFC-81D3-E9B07F3159BC}|Dominio\\Dominio.csproj|solutionrelative:dominio\\nucleo\\enumerables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EC0DCA0D-7C7E-4BFC-81D3-E9B07F3159BC}|Dominio\\Dominio.csproj|c:\\users\\salak401\\desktop\\concesionario\\dominio\\nucleo\\encriptarconversor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC0DCA0D-7C7E-4BFC-81D3-E9B07F3159BC}|Dominio\\Dominio.csproj|solutionrelative:dominio\\nucleo\\encriptarconversor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EC0DCA0D-7C7E-4BFC-81D3-E9B07F3159BC}|Dominio\\Dominio.csproj|c:\\users\\salak401\\desktop\\concesionario\\dominio\\nucleo\\encodinghelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC0DCA0D-7C7E-4BFC-81D3-E9B07F3159BC}|Dominio\\Dominio.csproj|solutionrelative:dominio\\nucleo\\encodinghelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EC0DCA0D-7C7E-4BFC-81D3-E9B07F3159BC}|Dominio\\Dominio.csproj|c:\\users\\salak401\\desktop\\concesionario\\dominio\\entidades\\ventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC0DCA0D-7C7E-4BFC-81D3-E9B07F3159BC}|Dominio\\Dominio.csproj|solutionrelative:dominio\\entidades\\ventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EC0DCA0D-7C7E-4BFC-81D3-E9B07F3159BC}|Dominio\\Dominio.csproj|c:\\users\\salak401\\desktop\\concesionario\\dominio\\entidades\\servicios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC0DCA0D-7C7E-4BFC-81D3-E9B07F3159BC}|Dominio\\Dominio.csproj|solutionrelative:dominio\\entidades\\servicios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EC0DCA0D-7C7E-4BFC-81D3-E9B07F3159BC}|Dominio\\Dominio.csproj|c:\\users\\salak401\\desktop\\concesionario\\dominio\\entidades\\repuestos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC0DCA0D-7C7E-4BFC-81D3-E9B07F3159BC}|Dominio\\Dominio.csproj|solutionrelative:dominio\\entidades\\repuestos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EC0DCA0D-7C7E-4BFC-81D3-E9B07F3159BC}|Dominio\\Dominio.csproj|c:\\users\\salak401\\desktop\\concesionario\\dominio\\entidades\\proveedores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC0DCA0D-7C7E-4BFC-81D3-E9B07F3159BC}|Dominio\\Dominio.csproj|solutionrelative:dominio\\entidades\\proveedores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EC0DCA0D-7C7E-4BFC-81D3-E9B07F3159BC}|Dominio\\Dominio.csproj|c:\\users\\salak401\\desktop\\concesionario\\dominio\\entidades\\pagos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC0DCA0D-7C7E-4BFC-81D3-E9B07F3159BC}|Dominio\\Dominio.csproj|solutionrelative:dominio\\entidades\\pagos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EC0DCA0D-7C7E-4BFC-81D3-E9B07F3159BC}|Dominio\\Dominio.csproj|c:\\users\\salak401\\desktop\\concesionario\\dominio\\entidades\\orden_servicios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC0DCA0D-7C7E-4BFC-81D3-E9B07F3159BC}|Dominio\\Dominio.csproj|solutionrelative:dominio\\entidades\\orden_servicios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EC0DCA0D-7C7E-4BFC-81D3-E9B07F3159BC}|Dominio\\Dominio.csproj|c:\\users\\salak401\\desktop\\concesionario\\dominio\\entidades\\motos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC0DCA0D-7C7E-4BFC-81D3-E9B07F3159BC}|Dominio\\Dominio.csproj|solutionrelative:dominio\\entidades\\motos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EC0DCA0D-7C7E-4BFC-81D3-E9B07F3159BC}|Dominio\\Dominio.csproj|c:\\users\\salak401\\desktop\\concesionario\\dominio\\entidades\\modelos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC0DCA0D-7C7E-4BFC-81D3-E9B07F3159BC}|Dominio\\Dominio.csproj|solutionrelative:dominio\\entidades\\modelos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EC0DCA0D-7C7E-4BFC-81D3-E9B07F3159BC}|Dominio\\Dominio.csproj|c:\\users\\salak401\\desktop\\concesionario\\dominio\\entidades\\marcas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC0DCA0D-7C7E-4BFC-81D3-E9B07F3159BC}|Dominio\\Dominio.csproj|solutionrelative:dominio\\entidades\\marcas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EC0DCA0D-7C7E-4BFC-81D3-E9B07F3159BC}|Dominio\\Dominio.csproj|c:\\users\\salak401\\desktop\\concesionario\\dominio\\entidades\\empleados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{EC0DCA0D-7C7E-4BFC-81D3-E9B07F3159BC}|Dominio\\Dominio.csproj|c:\\users\\juang\\desktop\\concesionario\\dominio\\entidades\\empleados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EC0DCA0D-7C7E-4BFC-81D3-E9B07F3159BC}|Dominio\\Dominio.csproj|solutionrelative:dominio\\entidades\\empleados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EC0DCA0D-7C7E-4BFC-81D3-E9B07F3159BC}|Dominio\\Dominio.csproj|c:\\users\\salak401\\desktop\\concesionario\\dominio\\entidades\\detalle_ventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC0DCA0D-7C7E-4BFC-81D3-E9B07F3159BC}|Dominio\\Dominio.csproj|solutionrelative:dominio\\entidades\\detalle_ventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D3A42E3F-64F3-427F-BE5F-D0463417B7D4}|ut_presentacion\\ut_presentacion.csproj|c:\\users\\juang\\desktop\\concesionario\\ut_presentacion\\repositorios\\empleadosrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3A42E3F-64F3-427F-BE5F-D0463417B7D4}|ut_presentacion\\ut_presentacion.csproj|solutionrelative:ut_presentacion\\repositorios\\empleadosrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EC0DCA0D-7C7E-4BFC-81D3-E9B07F3159BC}|Dominio\\Dominio.csproj|c:\\users\\salak401\\desktop\\concesionario\\dominio\\entidades\\detalle_compras.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC0DCA0D-7C7E-4BFC-81D3-E9B07F3159BC}|Dominio\\Dominio.csproj|solutionrelative:dominio\\entidades\\detalle_compras.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EC0DCA0D-7C7E-4BFC-81D3-E9B07F3159BC}|Dominio\\Dominio.csproj|c:\\users\\juang\\desktop\\concesionario\\dominio\\entidades\\modelos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC0DCA0D-7C7E-4BFC-81D3-E9B07F3159BC}|Dominio\\Dominio.csproj|solutionrelative:dominio\\entidades\\modelos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EC0DCA0D-7C7E-4BFC-81D3-E9B07F3159BC}|Dominio\\Dominio.csproj|c:\\users\\salak401\\desktop\\concesionario\\dominio\\entidades\\compras.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC0DCA0D-7C7E-4BFC-81D3-E9B07F3159BC}|Dominio\\Dominio.csproj|solutionrelative:dominio\\entidades\\compras.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D3A42E3F-64F3-427F-BE5F-D0463417B7D4}|ut_presentacion\\ut_presentacion.csproj|c:\\users\\juang\\desktop\\concesionario\\ut_presentacion\\repositorios\\modelosrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3A42E3F-64F3-427F-BE5F-D0463417B7D4}|ut_presentacion\\ut_presentacion.csproj|solutionrelative:ut_presentacion\\repositorios\\modelosrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EC0DCA0D-7C7E-4BFC-81D3-E9B07F3159BC}|Dominio\\Dominio.csproj|c:\\users\\salak401\\desktop\\concesionario\\dominio\\entidades\\clientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC0DCA0D-7C7E-4BFC-81D3-E9B07F3159BC}|Dominio\\Dominio.csproj|solutionrelative:dominio\\entidades\\clientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EC0DCA0D-7C7E-4BFC-81D3-E9B07F3159BC}|Dominio\\Dominio.csproj|c:\\users\\salak401\\desktop\\concesionario\\dominio\\entidades\\cargos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC0DCA0D-7C7E-4BFC-81D3-E9B07F3159BC}|Dominio\\Dominio.csproj|solutionrelative:dominio\\entidades\\cargos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D3A42E3F-64F3-427F-BE5F-D0463417B7D4}|ut_presentacion\\ut_presentacion.csproj|c:\\users\\juang\\desktop\\concesionario\\ut_presentacion\\repositorios\\detalle_comprasrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3A42E3F-64F3-427F-BE5F-D0463417B7D4}|ut_presentacion\\ut_presentacion.csproj|solutionrelative:ut_presentacion\\repositorios\\detalle_comprasrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -98,292 +46,123 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Dominio",
-              "DocumentMoniker": "C:\\Users\\salak401\\Desktop\\Concesionario\\Dominio\\Dominio.csproj",
-              "RelativeDocumentMoniker": "Dominio\\Dominio.csproj",
-              "ToolTip": "C:\\Users\\salak401\\Desktop\\Concesionario\\Dominio\\Dominio.csproj",
-              "RelativeToolTip": "Dominio\\Dominio.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-09-17T23:19:28.546Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "LogConversor.cs",
-              "DocumentMoniker": "C:\\Users\\salak401\\Desktop\\Concesionario\\Dominio\\Nucleo\\LogConversor.cs",
-              "RelativeDocumentMoniker": "Dominio\\Nucleo\\LogConversor.cs",
-              "ToolTip": "C:\\Users\\salak401\\Desktop\\Concesionario\\Dominio\\Nucleo\\LogConversor.cs",
-              "RelativeToolTip": "Dominio\\Nucleo\\LogConversor.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAA4wBgAAAAAAAAAAAAAAA==",
+              "Title": "RepuestosRepositorio.cs",
+              "DocumentMoniker": "C:\\Users\\juang\\Desktop\\Concesionario\\ut_presentacion\\Repositorios\\RepuestosRepositorio.cs",
+              "RelativeDocumentMoniker": "ut_presentacion\\Repositorios\\RepuestosRepositorio.cs",
+              "ToolTip": "C:\\Users\\juang\\Desktop\\Concesionario\\ut_presentacion\\Repositorios\\RepuestosRepositorio.cs",
+              "RelativeToolTip": "ut_presentacion\\Repositorios\\RepuestosRepositorio.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-17T23:17:58.264Z",
+              "WhenOpened": "2025-09-19T01:06:07.947Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "JsonConversor.cs",
-              "DocumentMoniker": "C:\\Users\\salak401\\Desktop\\Concesionario\\Dominio\\Nucleo\\JsonConversor.cs",
-              "RelativeDocumentMoniker": "Dominio\\Nucleo\\JsonConversor.cs",
-              "ToolTip": "C:\\Users\\salak401\\Desktop\\Concesionario\\Dominio\\Nucleo\\JsonConversor.cs",
-              "RelativeToolTip": "Dominio\\Nucleo\\JsonConversor.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAA4wAsAAAANAAAAAAAAAA==",
+              "Title": "MotosRepositorio.cs",
+              "DocumentMoniker": "C:\\Users\\juang\\Desktop\\Concesionario\\ut_presentacion\\Repositorios\\MotosRepositorio.cs",
+              "RelativeDocumentMoniker": "ut_presentacion\\Repositorios\\MotosRepositorio.cs",
+              "ToolTip": "C:\\Users\\juang\\Desktop\\Concesionario\\ut_presentacion\\Repositorios\\MotosRepositorio.cs",
+              "RelativeToolTip": "ut_presentacion\\Repositorios\\MotosRepositorio.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-17T23:17:55.193Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Enumerables.cs",
-              "DocumentMoniker": "C:\\Users\\salak401\\Desktop\\Concesionario\\Dominio\\Nucleo\\Enumerables.cs",
-              "RelativeDocumentMoniker": "Dominio\\Nucleo\\Enumerables.cs",
-              "ToolTip": "C:\\Users\\salak401\\Desktop\\Concesionario\\Dominio\\Nucleo\\Enumerables.cs",
-              "RelativeToolTip": "Dominio\\Nucleo\\Enumerables.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-17T23:17:50.841Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "EncriptarConversor.cs",
-              "DocumentMoniker": "C:\\Users\\salak401\\Desktop\\Concesionario\\Dominio\\Nucleo\\EncriptarConversor.cs",
-              "RelativeDocumentMoniker": "Dominio\\Nucleo\\EncriptarConversor.cs",
-              "ToolTip": "C:\\Users\\salak401\\Desktop\\Concesionario\\Dominio\\Nucleo\\EncriptarConversor.cs",
-              "RelativeToolTip": "Dominio\\Nucleo\\EncriptarConversor.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAA3wAkAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-17T23:17:47.536Z",
+              "WhenOpened": "2025-09-19T01:03:41.76Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "EncodingHelper.cs",
-              "DocumentMoniker": "C:\\Users\\salak401\\Desktop\\Concesionario\\Dominio\\Nucleo\\EncodingHelper.cs",
-              "RelativeDocumentMoniker": "Dominio\\Nucleo\\EncodingHelper.cs",
-              "ToolTip": "C:\\Users\\salak401\\Desktop\\Concesionario\\Dominio\\Nucleo\\EncodingHelper.cs",
-              "RelativeToolTip": "Dominio\\Nucleo\\EncodingHelper.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAiAAAAAAAAAA==",
+              "Title": "Modelos.cs",
+              "DocumentMoniker": "C:\\Users\\juang\\Desktop\\Concesionario\\Dominio\\Entidades\\Modelos.cs",
+              "RelativeDocumentMoniker": "Dominio\\Entidades\\Modelos.cs",
+              "ToolTip": "C:\\Users\\juang\\Desktop\\Concesionario\\Dominio\\Entidades\\Modelos.cs",
+              "RelativeToolTip": "Dominio\\Entidades\\Modelos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-17T23:17:43.112Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "DatosGenerales.cs",
-              "DocumentMoniker": "C:\\Users\\salak401\\Desktop\\Concesionario\\Dominio\\Nucleo\\DatosGenerales.cs",
-              "RelativeDocumentMoniker": "Dominio\\Nucleo\\DatosGenerales.cs",
-              "ToolTip": "C:\\Users\\salak401\\Desktop\\Concesionario\\Dominio\\Nucleo\\DatosGenerales.cs",
-              "RelativeToolTip": "Dominio\\Nucleo\\DatosGenerales.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-17T23:17:32.209Z",
+              "WhenOpened": "2025-09-19T00:56:43.822Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "Ventas.cs",
-              "DocumentMoniker": "C:\\Users\\salak401\\Desktop\\Concesionario\\Dominio\\Entidades\\Ventas.cs",
-              "RelativeDocumentMoniker": "Dominio\\Entidades\\Ventas.cs",
-              "ToolTip": "C:\\Users\\salak401\\Desktop\\Concesionario\\Dominio\\Entidades\\Ventas.cs",
-              "RelativeToolTip": "Dominio\\Entidades\\Ventas.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAA5wBEAAABIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-17T23:16:28.327Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Repuestos.cs",
-              "DocumentMoniker": "C:\\Users\\salak401\\Desktop\\Concesionario\\Dominio\\Entidades\\Repuestos.cs",
-              "RelativeDocumentMoniker": "Dominio\\Entidades\\Repuestos.cs",
-              "ToolTip": "C:\\Users\\salak401\\Desktop\\Concesionario\\Dominio\\Entidades\\Repuestos.cs",
-              "RelativeToolTip": "Dominio\\Entidades\\Repuestos.cs",
+              "Title": "ModelosRepositorio.cs",
+              "DocumentMoniker": "C:\\Users\\juang\\Desktop\\Concesionario\\ut_presentacion\\Repositorios\\ModelosRepositorio.cs",
+              "RelativeDocumentMoniker": "ut_presentacion\\Repositorios\\ModelosRepositorio.cs",
+              "ToolTip": "C:\\Users\\juang\\Desktop\\Concesionario\\ut_presentacion\\Repositorios\\ModelosRepositorio.cs",
+              "RelativeToolTip": "ut_presentacion\\Repositorios\\ModelosRepositorio.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-17T23:15:46.96Z",
+              "WhenOpened": "2025-09-19T00:55:34.989Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Proveedores.cs",
-              "DocumentMoniker": "C:\\Users\\salak401\\Desktop\\Concesionario\\Dominio\\Entidades\\Proveedores.cs",
-              "RelativeDocumentMoniker": "Dominio\\Entidades\\Proveedores.cs",
-              "ToolTip": "C:\\Users\\salak401\\Desktop\\Concesionario\\Dominio\\Entidades\\Proveedores.cs",
-              "RelativeToolTip": "Dominio\\Entidades\\Proveedores.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-17T23:15:45.136Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Pagos.cs",
-              "DocumentMoniker": "C:\\Users\\salak401\\Desktop\\Concesionario\\Dominio\\Entidades\\Pagos.cs",
-              "RelativeDocumentMoniker": "Dominio\\Entidades\\Pagos.cs",
-              "ToolTip": "C:\\Users\\salak401\\Desktop\\Concesionario\\Dominio\\Entidades\\Pagos.cs",
-              "RelativeToolTip": "Dominio\\Entidades\\Pagos.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-17T23:15:42.704Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Motos.cs",
-              "DocumentMoniker": "C:\\Users\\salak401\\Desktop\\Concesionario\\Dominio\\Entidades\\Motos.cs",
-              "RelativeDocumentMoniker": "Dominio\\Entidades\\Motos.cs",
-              "ToolTip": "C:\\Users\\salak401\\Desktop\\Concesionario\\Dominio\\Entidades\\Motos.cs",
-              "RelativeToolTip": "Dominio\\Entidades\\Motos.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAA3wAwAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-17T23:15:07.888Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Modelos.cs",
-              "DocumentMoniker": "C:\\Users\\salak401\\Desktop\\Concesionario\\Dominio\\Entidades\\Modelos.cs",
-              "RelativeDocumentMoniker": "Dominio\\Entidades\\Modelos.cs",
-              "ToolTip": "C:\\Users\\salak401\\Desktop\\Concesionario\\Dominio\\Entidades\\Modelos.cs",
-              "RelativeToolTip": "Dominio\\Entidades\\Modelos.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-17T23:15:05.058Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Marcas.cs",
-              "DocumentMoniker": "C:\\Users\\salak401\\Desktop\\Concesionario\\Dominio\\Entidades\\Marcas.cs",
-              "RelativeDocumentMoniker": "Dominio\\Entidades\\Marcas.cs",
-              "ToolTip": "C:\\Users\\salak401\\Desktop\\Concesionario\\Dominio\\Entidades\\Marcas.cs",
-              "RelativeToolTip": "Dominio\\Entidades\\Marcas.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-17T23:15:02.464Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 4,
               "Title": "Empleados.cs",
-              "DocumentMoniker": "C:\\Users\\salak401\\Desktop\\Concesionario\\Dominio\\Entidades\\Empleados.cs",
+              "DocumentMoniker": "C:\\Users\\juang\\Desktop\\Concesionario\\Dominio\\Entidades\\Empleados.cs",
               "RelativeDocumentMoniker": "Dominio\\Entidades\\Empleados.cs",
-              "ToolTip": "C:\\Users\\salak401\\Desktop\\Concesionario\\Dominio\\Entidades\\Empleados.cs",
+              "ToolTip": "C:\\Users\\juang\\Desktop\\Concesionario\\Dominio\\Entidades\\Empleados.cs",
               "RelativeToolTip": "Dominio\\Entidades\\Empleados.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-17T23:14:40.025Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Detalle_Ventas.cs",
-              "DocumentMoniker": "C:\\Users\\salak401\\Desktop\\Concesionario\\Dominio\\Entidades\\Detalle_Ventas.cs",
-              "RelativeDocumentMoniker": "Dominio\\Entidades\\Detalle_Ventas.cs",
-              "ToolTip": "C:\\Users\\salak401\\Desktop\\Concesionario\\Dominio\\Entidades\\Detalle_Ventas.cs",
-              "RelativeToolTip": "Dominio\\Entidades\\Detalle_Ventas.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-17T23:14:36.146Z",
+              "WhenOpened": "2025-09-19T00:54:52.367Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "Detalle_Compras.cs",
-              "DocumentMoniker": "C:\\Users\\salak401\\Desktop\\Concesionario\\Dominio\\Entidades\\Detalle_Compras.cs",
-              "RelativeDocumentMoniker": "Dominio\\Entidades\\Detalle_Compras.cs",
-              "ToolTip": "C:\\Users\\salak401\\Desktop\\Concesionario\\Dominio\\Entidades\\Detalle_Compras.cs",
-              "RelativeToolTip": "Dominio\\Entidades\\Detalle_Compras.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "EmpleadosRepositorio.cs",
+              "DocumentMoniker": "C:\\Users\\juang\\Desktop\\Concesionario\\ut_presentacion\\Repositorios\\EmpleadosRepositorio.cs",
+              "RelativeDocumentMoniker": "ut_presentacion\\Repositorios\\EmpleadosRepositorio.cs",
+              "ToolTip": "C:\\Users\\juang\\Desktop\\Concesionario\\ut_presentacion\\Repositorios\\EmpleadosRepositorio.cs",
+              "RelativeToolTip": "ut_presentacion\\Repositorios\\EmpleadosRepositorio.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAowBMAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-17T23:14:26.442Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "Compras.cs",
-              "DocumentMoniker": "C:\\Users\\salak401\\Desktop\\Concesionario\\Dominio\\Entidades\\Compras.cs",
-              "RelativeDocumentMoniker": "Dominio\\Entidades\\Compras.cs",
-              "ToolTip": "C:\\Users\\salak401\\Desktop\\Concesionario\\Dominio\\Entidades\\Compras.cs",
-              "RelativeToolTip": "Dominio\\Entidades\\Compras.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-17T23:14:15.69Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "Cargos.cs",
-              "DocumentMoniker": "C:\\Users\\salak401\\Desktop\\Concesionario\\Dominio\\Entidades\\Cargos.cs",
-              "RelativeDocumentMoniker": "Dominio\\Entidades\\Cargos.cs",
-              "ToolTip": "C:\\Users\\salak401\\Desktop\\Concesionario\\Dominio\\Entidades\\Cargos.cs",
-              "RelativeToolTip": "Dominio\\Entidades\\Cargos.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-17T23:13:59.259Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "Clientes.cs",
-              "DocumentMoniker": "C:\\Users\\salak401\\Desktop\\Concesionario\\Dominio\\Entidades\\Clientes.cs",
-              "RelativeDocumentMoniker": "Dominio\\Entidades\\Clientes.cs",
-              "ToolTip": "C:\\Users\\salak401\\Desktop\\Concesionario\\Dominio\\Entidades\\Clientes.cs",
-              "RelativeToolTip": "Dominio\\Entidades\\Clientes.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-17T23:13:27.205Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Orden_Servicios.cs",
-              "DocumentMoniker": "C:\\Users\\salak401\\Desktop\\Concesionario\\Dominio\\Entidades\\Orden_Servicios.cs",
-              "RelativeDocumentMoniker": "Dominio\\Entidades\\Orden_Servicios.cs",
-              "ToolTip": "C:\\Users\\salak401\\Desktop\\Concesionario\\Dominio\\Entidades\\Orden_Servicios.cs",
-              "RelativeToolTip": "Dominio\\Entidades\\Orden_Servicios.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAABCwAYAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-17T23:11:29.431Z",
+              "WhenOpened": "2025-09-19T00:54:07.084Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "Servicios.cs",
-              "DocumentMoniker": "C:\\Users\\salak401\\Desktop\\Concesionario\\Dominio\\Entidades\\Servicios.cs",
-              "RelativeDocumentMoniker": "Dominio\\Entidades\\Servicios.cs",
-              "ToolTip": "C:\\Users\\salak401\\Desktop\\Concesionario\\Dominio\\Entidades\\Servicios.cs",
-              "RelativeToolTip": "Dominio\\Entidades\\Servicios.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAqAAAAAAAAAA==",
+              "Title": "Detalle_ComprasRepositorio.cs",
+              "DocumentMoniker": "C:\\Users\\juang\\Desktop\\Concesionario\\ut_presentacion\\Repositorios\\Detalle_ComprasRepositorio.cs",
+              "RelativeDocumentMoniker": "ut_presentacion\\Repositorios\\Detalle_ComprasRepositorio.cs",
+              "ToolTip": "C:\\Users\\juang\\Desktop\\Concesionario\\ut_presentacion\\Repositorios\\Detalle_ComprasRepositorio.cs",
+              "RelativeToolTip": "ut_presentacion\\Repositorios\\Detalle_ComprasRepositorio.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-17T23:09:34.803Z",
+              "WhenOpened": "2025-09-19T00:46:13.958Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EntidadesNucleo.cs",
+              "DocumentMoniker": "C:\\Users\\juang\\Desktop\\Concesionario\\ut_presentacion\\Nucleo\\EntidadesNucleo.cs",
+              "RelativeDocumentMoniker": "ut_presentacion\\Nucleo\\EntidadesNucleo.cs",
+              "ToolTip": "C:\\Users\\juang\\Desktop\\Concesionario\\ut_presentacion\\Nucleo\\EntidadesNucleo.cs",
+              "RelativeToolTip": "ut_presentacion\\Nucleo\\EntidadesNucleo.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAowBsAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T00:44:09.204Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "script.sql",
+              "DocumentMoniker": "C:\\Users\\juang\\Desktop\\Concesionario\\Repositorio\\script.sql",
+              "RelativeDocumentMoniker": "Repositorio\\script.sql",
+              "ToolTip": "C:\\Users\\juang\\Desktop\\Concesionario\\Repositorio\\script.sql",
+              "RelativeToolTip": "Repositorio\\script.sql",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-09-18T23:25:49.287Z",
               "EditorCaption": ""
             }
           ]
