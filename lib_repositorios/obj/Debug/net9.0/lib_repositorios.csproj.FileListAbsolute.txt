@@ -1,0 +1,16 @@
+/Users/lintrejos/concesionario_motos/lib_repositorios/bin/Debug/net9.0/lib_repositorios.deps.json
+/Users/lintrejos/concesionario_motos/lib_repositorios/bin/Debug/net9.0/lib_repositorios.dll
+/Users/lintrejos/concesionario_motos/lib_repositorios/bin/Debug/net9.0/lib_repositorios.pdb
+/Users/lintrejos/concesionario_motos/lib_repositorios/bin/Debug/net9.0/Dominio.dll
+/Users/lintrejos/concesionario_motos/lib_repositorios/bin/Debug/net9.0/Dominio.pdb
+/Users/lintrejos/concesionario_motos/lib_repositorios/obj/Debug/net9.0/lib_repositorios.csproj.AssemblyReference.cache
+/Users/lintrejos/concesionario_motos/lib_repositorios/obj/Debug/net9.0/lib_repositorios.GeneratedMSBuildEditorConfig.editorconfig
+/Users/lintrejos/concesionario_motos/lib_repositorios/obj/Debug/net9.0/lib_repositorios.AssemblyInfoInputs.cache
+/Users/lintrejos/concesionario_motos/lib_repositorios/obj/Debug/net9.0/lib_repositorios.AssemblyInfo.cs
+/Users/lintrejos/concesionario_motos/lib_repositorios/obj/Debug/net9.0/lib_repositorios.csproj.CoreCompileInputs.cache
+/Users/lintrejos/concesionario_motos/lib_repositorios/obj/Debug/net9.0/lib_repositorios.sourcelink.json
+/Users/lintrejos/concesionario_motos/lib_repositorios/obj/Debug/net9.0/lib_repo.695687AF.Up2Date
+/Users/lintrejos/concesionario_motos/lib_repositorios/obj/Debug/net9.0/lib_repositorios.dll
+/Users/lintrejos/concesionario_motos/lib_repositorios/obj/Debug/net9.0/refint/lib_repositorios.dll
+/Users/lintrejos/concesionario_motos/lib_repositorios/obj/Debug/net9.0/lib_repositorios.pdb
+/Users/lintrejos/concesionario_motos/lib_repositorios/obj/Debug/net9.0/ref/lib_repositorios.dll

@@ -4440,43 +4440,35 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\juang\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "/Users/lintrejos/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\juang\\Desktop\\concesionario_motos\\ut_presentacion\\ut_presentacion.csproj",
+      "projectUniqueName": "/Users/lintrejos/concesionario_motos/ut_presentacion/ut_presentacion.csproj",
       "projectName": "ut_presentacion",
-      "projectPath": "C:\\Users\\juang\\Desktop\\concesionario_motos\\ut_presentacion\\ut_presentacion.csproj",
-      "packagesPath": "C:\\Users\\juang\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\juang\\Desktop\\concesionario_motos\\ut_presentacion\\obj\\",
+      "projectPath": "/Users/lintrejos/concesionario_motos/ut_presentacion/ut_presentacion.csproj",
+      "packagesPath": "/Users/lintrejos/.nuget/packages/",
+      "outputPath": "/Users/lintrejos/concesionario_motos/ut_presentacion/obj/",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\juang\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/lintrejos/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\juang\\Desktop\\concesionario_motos\\Dominio\\Dominio.csproj": {
-              "projectPath": "C:\\Users\\juang\\Desktop\\concesionario_motos\\Dominio\\Dominio.csproj"
+            "/Users/lintrejos/concesionario_motos/Dominio/Dominio.csproj": {
+              "projectPath": "/Users/lintrejos/concesionario_motos/Dominio/Dominio.csproj"
             },
-            "C:\\Users\\juang\\Desktop\\concesionario_motos\\Repositorio\\Repositorio.csproj": {
-              "projectPath": "C:\\Users\\juang\\Desktop\\concesionario_motos\\Repositorio\\Repositorio.csproj"
+            "/Users/lintrejos/concesionario_motos/Repositorio/Repositorio.csproj": {
+              "projectPath": "/Users/lintrejos/concesionario_motos/Repositorio/Repositorio.csproj"
             }
           }
         }
@@ -4521,12 +4513,22 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[8.0.20, 8.0.20]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[8.0.20, 8.0.20]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.305/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

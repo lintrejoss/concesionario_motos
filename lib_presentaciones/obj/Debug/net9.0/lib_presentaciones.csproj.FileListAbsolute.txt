@@ -1,0 +1,12 @@
+/Users/lintrejos/concesionario_motos/lib_presentaciones/bin/Debug/net9.0/lib_presentaciones.deps.json
+/Users/lintrejos/concesionario_motos/lib_presentaciones/bin/Debug/net9.0/lib_presentaciones.dll
+/Users/lintrejos/concesionario_motos/lib_presentaciones/bin/Debug/net9.0/lib_presentaciones.pdb
+/Users/lintrejos/concesionario_motos/lib_presentaciones/obj/Debug/net9.0/lib_presentaciones.GeneratedMSBuildEditorConfig.editorconfig
+/Users/lintrejos/concesionario_motos/lib_presentaciones/obj/Debug/net9.0/lib_presentaciones.AssemblyInfoInputs.cache
+/Users/lintrejos/concesionario_motos/lib_presentaciones/obj/Debug/net9.0/lib_presentaciones.AssemblyInfo.cs
+/Users/lintrejos/concesionario_motos/lib_presentaciones/obj/Debug/net9.0/lib_presentaciones.csproj.CoreCompileInputs.cache
+/Users/lintrejos/concesionario_motos/lib_presentaciones/obj/Debug/net9.0/lib_presentaciones.sourcelink.json
+/Users/lintrejos/concesionario_motos/lib_presentaciones/obj/Debug/net9.0/lib_presentaciones.dll
+/Users/lintrejos/concesionario_motos/lib_presentaciones/obj/Debug/net9.0/refint/lib_presentaciones.dll
+/Users/lintrejos/concesionario_motos/lib_presentaciones/obj/Debug/net9.0/lib_presentaciones.pdb
+/Users/lintrejos/concesionario_motos/lib_presentaciones/obj/Debug/net9.0/ref/lib_presentaciones.dll
