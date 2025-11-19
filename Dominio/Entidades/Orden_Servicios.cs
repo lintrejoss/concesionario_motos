@@ -15,6 +15,8 @@ namespace Dominio.Entidades
         public int ServicioId { get; set; }
         public DateTime Fecha { get; set; }
         public decimal CostoTotal { get; set; }
+        public string? Descripcion { get; set; }
+
 
         [ForeignKey("ClienteId")] public Clientes? Clientes { get; set; }
 

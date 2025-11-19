@@ -14,6 +14,7 @@ namespace Dominio.Entidades
         public int EmpleadoId { get; set; }
         public int MotoId { get; set; }
         public decimal Total { get; set; }
+        public string? Descripcion { get; set; }
 
         [ForeignKey("ClienteId")] public Clientes? Clientes { get; set; }
         [ForeignKey("EmpleadoId")] public Empleados? Empleados { get; set; }

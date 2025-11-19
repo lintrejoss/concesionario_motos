@@ -26,5 +26,6 @@ namespace Repositorio.Implementaciones
         public DbSet<Repuestos>? Repuestos { get; set; }
         public DbSet<Servicios>? Servicios { get; set; }
         public DbSet<Ventas>? Ventas { get; set; }
+        public DbSet<Usuarios>? Usuarios { get; set; }
     }
 }

@@ -13,7 +13,7 @@ namespace Dominio.Entidades
         public int RepuestoId { get; set; }
         public int Cantidad { get; set; }
         public decimal PrecioUnitario { get; set; }
-
+        public string? Descripcion { get; set; }
         [ForeignKey("VentaId")] public Ventas? Ventas { get; set; }
         [ForeignKey("RepuestoId")] public Repuestos? Repuestos { get; set; }
     }

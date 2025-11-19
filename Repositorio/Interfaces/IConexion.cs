@@ -22,6 +22,7 @@ namespace Repositorio.Interfaces
         DbSet<Repuestos>? Repuestos { get; set; }
         DbSet<Servicios>? Servicios { get; set; }
         DbSet<Ventas>? Ventas { get; set; }
+        DbSet<Usuarios>? Usuarios { get; set; }
         EntityEntry<T> Entry<T>(T entity) where T : class;
         int SaveChanges();
     }

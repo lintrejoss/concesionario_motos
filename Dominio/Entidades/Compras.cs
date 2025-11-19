@@ -12,6 +12,7 @@ namespace Dominio.Entidades
         public int ProveedorId { get; set; }
         public DateTime Fecha { get; set; }
         public decimal Total { get; set; }
+        public string? Descrpcion { get; set; }
 
         [ForeignKey("ProveedorId")] public Proveedores? Proveedores { get; set; }
 
