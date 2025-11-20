@@ -1,8 +1,8 @@
 [
   {
-    "ContainingType": "asp_servicios.Controllers.InstrumentosController",
+    "ContainingType": "asp_servicios.Controllers.CargosController",
     "Method": "Borrar",
-    "RelativePath": "Instrumentos/Borrar",
+    "RelativePath": "Cargos/Borrar",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -20,9 +20,9 @@
     ]
   },
   {
-    "ContainingType": "asp_servicios.Controllers.InstrumentosController",
+    "ContainingType": "asp_servicios.Controllers.CargosController",
     "Method": "Guardar",
-    "RelativePath": "Instrumentos/Guardar",
+    "RelativePath": "Cargos/Guardar",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -40,9 +40,9 @@
     ]
   },
   {
-    "ContainingType": "asp_servicios.Controllers.InstrumentosController",
+    "ContainingType": "asp_servicios.Controllers.CargosController",
     "Method": "Listar",
-    "RelativePath": "Instrumentos/Listar",
+    "RelativePath": "Cargos/Listar",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -60,9 +60,9 @@
     ]
   },
   {
-    "ContainingType": "asp_servicios.Controllers.InstrumentosController",
+    "ContainingType": "asp_servicios.Controllers.CargosController",
     "Method": "Modificar",
-    "RelativePath": "Instrumentos/Modificar",
+    "RelativePath": "Cargos/Modificar",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -80,9 +80,9 @@
     ]
   },
   {
-    "ContainingType": "asp_servicios.Controllers.InstrumentosController",
+    "ContainingType": "asp_servicios.Controllers.CargosController",
     "Method": "PorTipo",
-    "RelativePath": "Instrumentos/PorTipo",
+    "RelativePath": "Cargos/PorTipo",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,

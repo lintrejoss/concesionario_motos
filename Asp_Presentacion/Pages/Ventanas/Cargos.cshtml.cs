@@ -58,7 +58,7 @@ namespace asp_presentacion.Pages.Ventanas
             {
                 Accion = Enumerables.Ventanas.Editar;
                 Actual = new Cargos();
-                Actual.Fecha = DateTime.Now;
+                Actual.Nombre = "";
             }
             catch (Exception ex)
             {

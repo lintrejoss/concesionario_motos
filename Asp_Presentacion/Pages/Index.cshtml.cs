@@ -18,13 +18,13 @@ namespace asp_presentacion.Pages
         {
             try
             {
-                IInstrumentosPresentacion iPresentacion
-                    = new InstrumentosPresentacion();
+                ICargosPresentacion iPresentacion
+                    = new CargosPresentacion();
                 var tarea = iPresentacion.Listar();
                 tarea.Wait();
                 var respuesta = tarea.Result;
             }
-            catch (Exception ex)
+            catch (Exception)
             {
 
             }
