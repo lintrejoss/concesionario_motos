@@ -4,11 +4,11 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Repositorio.Implementaciones
 {
-    public class CargosAplicacion : ICargosAplicacion
+    public class PagosAplicacion : IPagosAplicacion
     {
         private IConexion? IConexion = null;
 
-        public CargosAplicacion(IConexion iConexion)
+        public PagosAplicacion(IConexion iConexion)
         {
             this.IConexion = iConexion;
         }
@@ -18,57 +18,57 @@ namespace Repositorio.Implementaciones
             this.IConexion!.StringConexion = StringConexion;
         }
 
-        public Cargos? Borrar(Cargos? entidad)
+        public Pagos? Borrar(Pagos? entidad)
         {
             if (entidad == null)
                 throw new Exception("lbFaltaInformacion");
-            if (entidad!.IdCargo == 0)
+            if (entidad!.IdPago == 0)
                 throw new Exception("lbNoSeGuardo");
 
             // Operaciones
 
-            this.IConexion!.Cargos!.Remove(entidad);
+            this.IConexion!.Pagos!.Remove(entidad);
             this.IConexion.SaveChanges();
             return entidad;
         }
 
-        public Cargos? Guardar(Cargos? entidad)
+        public Pagos? Guardar(Pagos? entidad)
         {
             if (entidad == null)
                 throw new Exception("lbFaltaInformacion");
-            if (entidad.IdCargo != 0)
+            if (entidad.IdPago != 0)
                 throw new Exception("lbYaSeGuardo");
 
             // Operaciones
 
-            this.IConexion!.Cargos!.Add(entidad);
+            this.IConexion!.Pagos!.Add(entidad);
             this.IConexion.SaveChanges();
             return entidad;
         }
 
-        public List<Cargos> Listar()
+        public List<Pagos> Listar()
         {
-            return this.IConexion!.Cargos!.Take(50).ToList();
+            return this.IConexion!.Pagos!.Take(50).ToList();
         }
 
-        public List<Cargos> PorTipo(Cargos? entidad)
+        public List<Pagos> PorTipo(Pagos? entidad)
         {
-            return this.IConexion!.Cargos!
-                .Where(x => x.Nombre!.Contains(entidad!.Nombre!))
+            return this.IConexion!.Pagos!
+                .Where(x => x.MetodoPago!.Contains(entidad!.MetodoPago!))
                 .Take(50)
                 .ToList();
         }
 
-        public Cargos? Modificar(Cargos? entidad)
+        public Pagos? Modificar(Pagos? entidad)
         {
             if (entidad == null)
                 throw new Exception("lbFaltaInformacion");
-            if (entidad!.IdCargo == 0)
+            if (entidad!.IdPago == 0)
                 throw new Exception("lbNoSeGuardo");
 
             // Operaciones
 
-            var entry = this.IConexion!.Entry<Cargos>(entidad);
+            var entry = this.IConexion!.Entry<Pagos>(entidad);
             entry.State = EntityState.Modified;
             this.IConexion.SaveChanges();
             return entidad;

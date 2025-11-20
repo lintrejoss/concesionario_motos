@@ -4,11 +4,11 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Repositorio.Implementaciones
 {
-    public class CargosAplicacion : ICargosAplicacion
+    public class Orden_ServiciosAplicacion : IOrden_ServiciosAplicacion
     {
         private IConexion? IConexion = null;
 
-        public CargosAplicacion(IConexion iConexion)
+        public Orden_ServiciosAplicacion(IConexion iConexion)
         {
             this.IConexion = iConexion;
         }
@@ -18,57 +18,57 @@ namespace Repositorio.Implementaciones
             this.IConexion!.StringConexion = StringConexion;
         }
 
-        public Cargos? Borrar(Cargos? entidad)
+        public Orden_Servicios? Borrar(Orden_Servicios? entidad)
         {
             if (entidad == null)
                 throw new Exception("lbFaltaInformacion");
-            if (entidad!.IdCargo == 0)
+            if (entidad!.IdOrden == 0)
                 throw new Exception("lbNoSeGuardo");
 
             // Operaciones
 
-            this.IConexion!.Cargos!.Remove(entidad);
+            this.IConexion!.Orden_Servicios!.Remove(entidad);
             this.IConexion.SaveChanges();
             return entidad;
         }
 
-        public Cargos? Guardar(Cargos? entidad)
+        public Orden_Servicios? Guardar(Orden_Servicios? entidad)
         {
             if (entidad == null)
                 throw new Exception("lbFaltaInformacion");
-            if (entidad.IdCargo != 0)
+            if (entidad.IdOrden != 0)
                 throw new Exception("lbYaSeGuardo");
 
             // Operaciones
 
-            this.IConexion!.Cargos!.Add(entidad);
+            this.IConexion!.Orden_Servicios!.Add(entidad);
             this.IConexion.SaveChanges();
             return entidad;
         }
 
-        public List<Cargos> Listar()
+        public List<Orden_Servicios> Listar()
         {
-            return this.IConexion!.Cargos!.Take(50).ToList();
+            return this.IConexion!.Orden_Servicios!.Take(50).ToList();
         }
 
-        public List<Cargos> PorTipo(Cargos? entidad)
+        public List<Orden_Servicios> PorTipo(Orden_Servicios? entidad)
         {
-            return this.IConexion!.Cargos!
-                .Where(x => x.Nombre!.Contains(entidad!.Nombre!))
+            return this.IConexion!.Orden_Servicios!
+                .Where(x => x.Descripcion!.Contains(entidad!.Descripcion!))
                 .Take(50)
                 .ToList();
         }
 
-        public Cargos? Modificar(Cargos? entidad)
+        public Orden_Servicios? Modificar(Orden_Servicios? entidad)
         {
             if (entidad == null)
                 throw new Exception("lbFaltaInformacion");
-            if (entidad!.IdCargo == 0)
+            if (entidad!.IdOrden == 0)
                 throw new Exception("lbNoSeGuardo");
 
             // Operaciones
 
-            var entry = this.IConexion!.Entry<Cargos>(entidad);
+            var entry = this.IConexion!.Entry<Orden_Servicios>(entidad);
             entry.State = EntityState.Modified;
             this.IConexion.SaveChanges();
             return entidad;

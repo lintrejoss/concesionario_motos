@@ -4,11 +4,11 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Repositorio.Implementaciones
 {
-    public class CargosAplicacion : ICargosAplicacion
+    public class MotosAplicacion : IMotosAplicacion
     {
         private IConexion? IConexion = null;
 
-        public CargosAplicacion(IConexion iConexion)
+        public MotosAplicacion(IConexion iConexion)
         {
             this.IConexion = iConexion;
         }
@@ -18,57 +18,57 @@ namespace Repositorio.Implementaciones
             this.IConexion!.StringConexion = StringConexion;
         }
 
-        public Cargos? Borrar(Cargos? entidad)
+        public Motos? Borrar(Motos? entidad)
         {
             if (entidad == null)
                 throw new Exception("lbFaltaInformacion");
-            if (entidad!.IdCargo == 0)
+            if (entidad!.IdMoto == 0)
                 throw new Exception("lbNoSeGuardo");
 
             // Operaciones
 
-            this.IConexion!.Cargos!.Remove(entidad);
+            this.IConexion!.Motos!.Remove(entidad);
             this.IConexion.SaveChanges();
             return entidad;
         }
 
-        public Cargos? Guardar(Cargos? entidad)
+        public Motos? Guardar(Motos? entidad)
         {
             if (entidad == null)
                 throw new Exception("lbFaltaInformacion");
-            if (entidad.IdCargo != 0)
+            if (entidad.IdMoto != 0)
                 throw new Exception("lbYaSeGuardo");
 
             // Operaciones
 
-            this.IConexion!.Cargos!.Add(entidad);
+            this.IConexion!.Motos!.Add(entidad);
             this.IConexion.SaveChanges();
             return entidad;
         }
 
-        public List<Cargos> Listar()
+        public List<Motos> Listar()
         {
-            return this.IConexion!.Cargos!.Take(50).ToList();
+            return this.IConexion!.Motos!.Take(50).ToList();
         }
 
-        public List<Cargos> PorTipo(Cargos? entidad)
+        public List<Motos> PorTipo(Motos? entidad)
         {
-            return this.IConexion!.Cargos!
-                .Where(x => x.Nombre!.Contains(entidad!.Nombre!))
+            return this.IConexion!.Motos!
+                .Where(x => x.NumeroChasis!.Contains(entidad!.NumeroChasis!))
                 .Take(50)
                 .ToList();
         }
 
-        public Cargos? Modificar(Cargos? entidad)
+        public Motos? Modificar(Motos? entidad)
         {
             if (entidad == null)
                 throw new Exception("lbFaltaInformacion");
-            if (entidad!.IdCargo == 0)
+            if (entidad!.IdMoto == 0)
                 throw new Exception("lbNoSeGuardo");
 
             // Operaciones
 
-            var entry = this.IConexion!.Entry<Cargos>(entidad);
+            var entry = this.IConexion!.Entry<Motos>(entidad);
             entry.State = EntityState.Modified;
             this.IConexion.SaveChanges();
             return entidad;

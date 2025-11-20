@@ -1,7 +1,7 @@
 ﻿using Dominio.Entidades;
 using Repositorio.Interfaces;
 
-namespace lib_repositorios.Implementaciones
+namespace Repositorio.Implementaciones
 {
     public class TokenAplicacion
     {

@@ -1,6 +1,6 @@
-@Asp_Servicios_HostAddress = http://localhost:5148
+@Asp_Servicios_HostAddress = http://localhost:5080
 
-GET {{Asp_Servicios_HostAddress}}/weatherforecast/
+GET {{Asp_Servicios_HostAddress}}/
 Accept: application/json
 
 ###
