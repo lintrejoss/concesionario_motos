@@ -1,0 +1,22 @@
+@* /Pages/Emergentes/Mensajes.cshtml *@
+@{
+    var tipo = TempData["MensajeTipo"] as string;   // success, info, warning, danger
+    var texto = TempData["MensajeTexto"] as string;
+}
+
+@if (!string.IsNullOrEmpty(texto))
+{
+    var css = tipo switch
+    {
+        "success" => "alert-success",
+        "info"    => "alert-info",
+        "warning" => "alert-warning",
+        "danger"  => "alert-danger",
+        _         => "alert-secondary"
+    };
+
+    <div class="alert @css alert-dismissible fade show" role="alert">
+        @texto
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+}

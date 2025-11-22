@@ -12,7 +12,7 @@ namespace asp_presentacion
 
         public static IConfiguration? Configuration { set; get; }
         
-        public void ConfigureServices(WebApplicationBuilder builder, IServiceCollection services)
+        public void ConfigureServices(IServiceCollection services)
         {
             // Presentaciones
             services.AddScoped<IConexion, Conexion>();
@@ -21,20 +21,19 @@ namespace asp_presentacion
             services.AddScoped<IComprasPresentacion, ComprasPresentacion>();
             services.AddScoped<IDetalle_ComprasPresentacion, Detalle_ComprasPresentacion>();
             services.AddScoped<IDetalle_VentasPresentacion, Detalle_VentasPresentacion>();
-            services.AddScoped<IRepuestosPresentacion, RepuestosPresentacion>();
             services.AddScoped<IMarcasPresentacion, MarcasPresentacion>();
             services.AddScoped<IModelosPresentacion, ModelosPresentacion>();
-            services.AddScoped<IMotosPresentacion, MotosPresentacion>();
             services.AddScoped<IOrden_ServiciosPresentacion, Orden_ServiciosPresentacion>();
             services.AddScoped<IPagosPresentacion, PagosPresentacion>();
             services.AddScoped<IProveedoresPresentacion, ProveedoresPresentacion>();
-            services.AddScoped<IRepuestosPresentacion, RepuestosPresentacion>();
             services.AddScoped<IServiciosPresentacion, ServiciosPresentacion>();
             services.AddScoped<IUsuariosPresentacion, UsuariosPresentacion>();
             services.AddScoped<IVentasPresentacion, VentasPresentacion>();
+            
             services.AddControllers();
             services.AddEndpointsApiExplorer();
             services.AddRazorPages();
+
             services.AddSession(options =>
             {
                 options.IdleTimeout = TimeSpan.FromMinutes(30);
@@ -43,10 +42,11 @@ namespace asp_presentacion
 
         public void Configure(WebApplication app, IWebHostEnvironment env)
         {
-            if (!app.Environment.IsDevelopment())
+            if (!env.IsDevelopment())
             {
                 app.UseExceptionHandler("/Error");
             }
+
             app.UseStaticFiles();
             app.UseRouting();
             app.UseAuthorization();
