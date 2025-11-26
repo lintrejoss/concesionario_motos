@@ -1,158 +1,59 @@
-using Dominio.Entidades;
-using Dominio.Nucleo;
-using lib_presentaciones.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using Dominio.Entidades;
+using System.Collections.Generic;
+
 namespace asp_presentacion.Pages.Ventanas
 {
     public class CargosModel : PageModel
     {
-        private ICargosPresentacion? iPresentacion = null;
+        public enum EstadoVentana { Listas, Editar }
+        [BindProperty]
+        public EstadoVentana Accion { get; set; } = EstadoVentana.Listas;
 
-        public CargosModel(ICargosPresentacion iPresentacion)
+        [BindProperty]
+        public string NombreNuevo { get; set; } = "";
+
+        [BindProperty]
+        public List<Cargos> Lista { get; set; } = new List<Cargos>();
+
+        private static int _idContador = 1; // Para generar IdCargo localmente
+
+        public void OnGet()
         {
-            try
-            {
-                this.iPresentacion = iPresentacion;
-                Filtro = new Cargos();
-            }
-            catch (Exception ex)
-            {
-                LogConversor.Log(ex, ViewData!);
-            }
+            // Nada, la lista está en la propiedad y se mantiene en la sesión actual.
         }
-
-        public IFormFile? FormFile { get; set; }
-        [BindProperty] public Enumerables.Ventanas Accion { get; set; }
-        [BindProperty] public Cargos? Actual { get; set; }
-        [BindProperty] public Cargos? Filtro { get; set; }
-        [BindProperty] public List<Cargos>? Lista { get; set; }
-        public virtual void OnGet() { OnPostBtRefrescar(); }
 
         public void OnPostBtRefrescar()
         {
-            try
-            {
-                //var variable_session = HttpContext.Session.GetString("Usuario");
-                //if (String.IsNullOrEmpty(variable_session))
-                //{
-                //    HttpContext.Response.Redirect("/");
-                //    return;
-                //}
-                Filtro!.Nombre = Filtro!.Nombre ?? "";
-                Accion = Enumerables.Ventanas.Listas;
-                var task = this.iPresentacion!.PorTipo(Filtro!);
-                task.Wait();
-                Lista = task.Result;
-                Actual = null;
-            }
-            catch (Exception ex)
-            {
-                LogConversor.Log(ex, ViewData!);
-            }
+            Accion = EstadoVentana.Listas;
         }
 
-        public virtual void OnPostBtNuevo()
+        public void OnPostBtNuevo()
         {
-            try
-            {
-                Accion = Enumerables.Ventanas.Editar;
-                Actual = new Cargos();
-                Actual.Nombre = "";
-            }
-            catch (Exception ex)
-            {
-                LogConversor.Log(ex, ViewData!);
-            }
+            Accion = EstadoVentana.Editar;
+            NombreNuevo = "";
         }
 
-        public virtual void OnPostBtModificar(string data)
+        public void OnPostBtGuardar()
         {
-            try
+            if (!string.IsNullOrWhiteSpace(NombreNuevo))
             {
-                OnPostBtRefrescar();
-                Accion = Enumerables.Ventanas.Editar;
-                Actual = Lista!.FirstOrDefault(x => x.IdCargo.ToString() == data);
+                Lista ??= new List<Cargos>();
+                Lista.Add(new Cargos
+                {
+                    IdCargo = _idContador++, // Autoincrementado local
+                    Nombre = NombreNuevo.Trim()
+                });
+                NombreNuevo = "";
             }
-            catch (Exception ex)
-            {
-                LogConversor.Log(ex, ViewData!);
-            }
-        }
-
-        public virtual void OnPostBtGuardar()
-        {
-            try
-            {
-                Accion = Enumerables.Ventanas.Editar;
-                Task<Cargos>? task = null;
-                if (Actual!.IdCargo == 0)
-                    task = this.iPresentacion!.Guardar(Actual!)!;
-                else
-                    task = this.iPresentacion!.Modificar(Actual!)!;
-                task.Wait();
-                Actual = task.Result;
-                Accion = Enumerables.Ventanas.Listas;
-                OnPostBtRefrescar();
-            }
-            catch (Exception ex)
-            {
-                LogConversor.Log(ex, ViewData!);
-            }
-        }
-
-        public virtual void OnPostBtBorrarVal(string data)
-        {
-            try
-            {
-                OnPostBtRefrescar();
-                Accion = Enumerables.Ventanas.Borrar;
-                Actual = Lista!.FirstOrDefault(x => x.IdCargo.ToString() == data);
-            }
-            catch (Exception ex)
-            {
-                LogConversor.Log(ex, ViewData!);
-            }
-        }
-
-        public virtual void OnPostBtBorrar()
-        {
-            try
-            {
-                var task = this.iPresentacion!.Borrar(Actual!);
-                Actual = task.Result;
-                OnPostBtRefrescar();
-            }
-            catch (Exception ex)
-            {
-                LogConversor.Log(ex, ViewData!);
-            }
+            Accion = EstadoVentana.Listas;
         }
 
         public void OnPostBtCancelar()
         {
-            try
-            {
-                Accion = Enumerables.Ventanas.Listas;
-                OnPostBtRefrescar();
-            }
-            catch (Exception ex)
-            {
-                LogConversor.Log(ex, ViewData!);
-            }
-        }
-
-        public void OnPostBtCerrar()
-        {
-            try
-            {
-                if (Accion == Enumerables.Ventanas.Listas)
-                    OnPostBtRefrescar();
-            }
-            catch (Exception ex)
-            {
-                LogConversor.Log(ex, ViewData!);
-            }
+            NombreNuevo = "";
+            Accion = EstadoVentana.Listas;
         }
     }
 }

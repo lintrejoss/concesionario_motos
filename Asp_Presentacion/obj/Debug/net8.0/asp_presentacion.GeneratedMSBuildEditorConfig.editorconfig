@@ -44,6 +44,66 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvVmVudGFuYXMvQ2FyZ29zLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/lintrejos/concesionario_motos/Asp_Presentacion/Pages/Ventanas/Clientes.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvVmVudGFuYXMvQ2xpZW50ZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/lintrejos/concesionario_motos/Asp_Presentacion/Pages/Ventanas/Compras.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvVmVudGFuYXMvQ29tcHJhcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/lintrejos/concesionario_motos/Asp_Presentacion/Pages/Ventanas/DetalleCompras.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvVmVudGFuYXMvRGV0YWxsZUNvbXByYXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/lintrejos/concesionario_motos/Asp_Presentacion/Pages/Ventanas/DetalleVentas.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvVmVudGFuYXMvRGV0YWxsZVZlbnRhcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/lintrejos/concesionario_motos/Asp_Presentacion/Pages/Ventanas/Empleados.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvVmVudGFuYXMvRW1wbGVhZG9zLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/lintrejos/concesionario_motos/Asp_Presentacion/Pages/Ventanas/Marcas.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvVmVudGFuYXMvTWFyY2FzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/lintrejos/concesionario_motos/Asp_Presentacion/Pages/Ventanas/Modelos.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvVmVudGFuYXMvTW9kZWxvcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/lintrejos/concesionario_motos/Asp_Presentacion/Pages/Ventanas/Motos.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvVmVudGFuYXMvTW90b3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/lintrejos/concesionario_motos/Asp_Presentacion/Pages/Ventanas/OdenServicios.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvVmVudGFuYXMvT2RlblNlcnZpY2lvcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/lintrejos/concesionario_motos/Asp_Presentacion/Pages/Ventanas/Pagos.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvVmVudGFuYXMvUGFnb3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/lintrejos/concesionario_motos/Asp_Presentacion/Pages/Ventanas/Proveedores.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvVmVudGFuYXMvUHJvdmVlZG9yZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/lintrejos/concesionario_motos/Asp_Presentacion/Pages/Ventanas/Repuestos.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvVmVudGFuYXMvUmVwdWVzdG9zLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/lintrejos/concesionario_motos/Asp_Presentacion/Pages/Ventanas/Servicios.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvVmVudGFuYXMvU2VydmljaW9zLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/lintrejos/concesionario_motos/Asp_Presentacion/Pages/Ventanas/Usuarios.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvVmVudGFuYXMvVXN1YXJpb3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/lintrejos/concesionario_motos/Asp_Presentacion/Pages/Ventanas/Ventas.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvVmVudGFuYXMvVmVudGFzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/lintrejos/concesionario_motos/Asp_Presentacion/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 

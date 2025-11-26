@@ -1,0 +1,101 @@
+@page
+@model asp_presentacion.Pages.Ventanas.MotosModel
+@{
+    ViewData["Titulo"] = "Gestión de Motos";
+}
+enter>
+    <div>
+        <form method="post">
+            @Html.AntiForgeryToken()
+            <div align="left">
+                <h3>Motos</h3>
+            </div>
+            <div align="left" class="bt_panel_buttons">
+                <input type="submit" value="Refrescar" asp-page-handler="BtRefrescar" class="btn btn-secondary" disabled="@(Model.Accion != Dominio.Nucleo.Enumerables.Ventanas.Listas)" />
+                <input type="submit" value="Nuevo" asp-page-handler="BtNuevo" class="btn btn-secondary" disabled="@(Model.Accion != Dominio.Nucleo.Enumerables.Ventanas.Listas)" />
+                <input type="submit" value="Guardar" asp-page-handler="BtGuardar" class="btn btn-secondary" disabled="@(Model.Accion == Dominio.Nucleo.Enumerables.Ventanas.Listas)" />
+                <input type="submit" value="Cancelar" asp-page-handler="BtCancelar" class="btn btn-secondary" disabled="@(Model.Accion == Dominio.Nucleo.Enumerables.Ventanas.Listas)" />
+            </div>
+            @if (Model.Accion == Dominio.Nucleo.Enumerables.Ventanas.Editar)
+            {
+                <input asp-for="Actual.IdMoto" type="hidden" />
+                <div class="containers_vn panel panel-default">
+                    <h3>Editar Moto</h3>
+                    <div class="form-group">
+                        <label asp-for="Actual.ModeloId" class="control-label">Modelo</label>
+                        <input asp-for="Actual.ModeloId" class="cts_forms form-control" />
+                        <label asp-for="Actual.NumeroChasis" class="control-label">Número Chasis</label>
+                        <input asp-for="Actual.NumeroChasis" class="cts_forms form-control" />
+                        <label asp-for="Actual.Color" class="control-label">Color</label>
+                        <input asp-for="Actual.Color" class="cts_forms form-control" />
+                        <label asp-for="Actual.Precio" class="control-label">Precio</label>
+                        <input asp-for="Actual.Precio" type="number" step="0.01" class="cts_forms form-control" />
+                        <label asp-for="Actual.Estado" class="control-label">Estado</label>
+                        <input asp-for="Actual.Estado" class="cts_forms form-control" />
+                    </div>
+                </div>
+            }
+            @if (Model.Accion == Dominio.Nucleo.Enumerables.Ventanas.Borrar && Model.Actual != null)
+            {
+                <div class="popup">
+                    <div class="pp_del_inner">
+                        <div style="width:95%">
+                            <h2>Mensaje</h2>
+                            <h4>¿Desea borrar esta moto?</h4>
+                            <h6>@Model.Actual.NumeroChasis</h6>
+                            <br />
+                            <input asp-for="Actual.IdMoto" type="hidden" />
+                            <input type="submit" value="Borrar" asp-page-handler="BtBorrar" class="btn btn-secondary" />
+                            <input type="submit" value="Cerrar" asp-page-handler="BtCancelar" class="btn btn-secondary" />
+                        </div>
+                    </div>
+                </div>
+            }
+            @if (Model.Accion == Dominio.Nucleo.Enumerables.Ventanas.Listas || Model.Accion == Dominio.Nucleo.Enumerables.Ventanas.Borrar)
+            {
+                <input id="flTipo" class="cts_forms form-control" asp-for="Filtro.NumeroChasis" placeholder="Buscar por chasis" />
+                <br />
+                <div class="containers_vn panel panel-default">
+                    <table class="tb_data table table-striped table-bordered table-hover">
+                        <thead>
+                            <tr>
+                                <th>Modelo</th>
+                                <th>Chasis</th>
+                                <th>Color</th>
+                                <th>Precio</th>
+                                <th>Estado</th>
+                                <th class="cl_actions">Acciones</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var moto in Model.Lista ?? Enumerable.Empty<Dominio.Entidades.Motos>())
+                            {
+                                <tr>
+                                    <td>@moto.ModeloId</td>
+                                    <td>@moto.NumeroChasis</td>
+                                    <td>@moto.Color</td>
+                                    <td>@moto.Precio</td>
+                                    <td>@moto.Estado</td>
+                                    <td>
+                                        <form method="post" style="display:inline">
+                                            <input type="hidden" name="data" value="@moto.IdMoto" />
+                                            <button type="submit" asp-page-handler="BtModificar" class="btn btn-secondary">Modificar</button>
+                                        </form>
+                                        <form method="post" style="display:inline">
+                                            <input type="hidden" name="data" value="@moto.IdMoto" />
+                                            <button type="submit" asp-page-handler="BtBorrarVal" class="btn btn-secondary">Borrar</button>
+                                        </form>
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            }
+            @if (ViewData.ContainsKey("Mensaje"))
+            {
+                @await Html.PartialAsync("../Emergentes/Mensajes.cshtml")
+            }
+        </form>
+    </div>
+</center>

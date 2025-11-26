@@ -1,0 +1,126 @@
+@page
+@model asp_presentacion.Pages.Ventanas.ComprasModel
+@{
+    ViewData["Titulo"] = "Gestión de Compras";
+}
+<center>
+    <div>
+        <form method="post" enctype="multipart/form-data">
+            @Html.AntiForgeryToken()
+            <div align="left">
+                <h3>Compras</h3>
+            </div>
+            <div align="left" class="bt_panel_buttons">
+                <input type="submit"
+                       value="Refrescar"
+                       asp-page-handler="BtRefrescar"
+                       class="btn btn-secondary"
+                       disabled="@(Model.Accion != Dominio.Nucleo.Enumerables.Ventanas.Listas)" />
+                <input type="submit"
+                       value="Nuevo"
+                       asp-page-handler="BtNuevo"
+                       class="btn btn-secondary"
+                       disabled="@(Model.Accion != Dominio.Nucleo.Enumerables.Ventanas.Listas)" />
+                <input type="submit"
+                       value="Guardar"
+                       asp-page-handler="BtGuardar"
+                       class="btn btn-secondary"
+                       disabled="@(Model.Accion == Dominio.Nucleo.Enumerables.Ventanas.Listas)" />
+                <input type="submit"
+                       value="Cancelar"
+                       asp-page-handler="BtCancelar"
+                       class="btn btn-secondary"
+                       disabled="@(Model.Accion == Dominio.Nucleo.Enumerables.Ventanas.Listas)" />
+            </div>
+            @if (Model.Accion == Dominio.Nucleo.Enumerables.Ventanas.Editar)
+            {
+                <input asp-for="Actual.IdCompra" type="hidden" />
+                <div class="containers_vn panel panel-default">
+                    <h3>Editar Compra</h3>
+                    <div class="form-group">
+                        <label asp-for="Actual.ProveedorId" class="control-label">Proveedor ID</label>
+                        <input asp-for="Actual.ProveedorId" class="cts_forms form-control" />
+                        <label asp-for="Actual.Fecha" class="control-label">Fecha</label>
+                        <input asp-for="Actual.Fecha" type="date" class="cts_forms form-control" />
+                        <label asp-for="Actual.Total" class="control-label">Total</label>
+                        <input asp-for="Actual.Total" type="number" step="0.01" class="cts_forms form-control" />
+                        <label asp-for="Actual.Descrpcion" class="control-label">Descripción</label>
+                        <input asp-for="Actual.Descrpcion" class="cts_forms form-control" />
+                    </div>
+                </div>
+            }
+            @if (Model.Accion == Dominio.Nucleo.Enumerables.Ventanas.Borrar && Model.Actual != null)
+            {
+                <div class="popup">
+                    <div class="pp_del_inner">
+                        <div style="width:95%">
+                            <h2>Mensaje</h2>
+                            <h4>¿Desea borrar esta compra?</h4>
+                            <h6>@Model.Actual.Descrpcion</h6>
+                            <br />
+                            <input asp-for="Actual.IdCompra" type="hidden" />
+                            <input type="submit"
+                                   value="Borrar"
+                                   asp-page-handler="BtBorrar"
+                                   class="btn btn-secondary" />
+                            <input type="submit"
+                                   value="Cerrar"
+                                   asp-page-handler="BtCancelar"
+                                   class="btn btn-secondary" />
+                        </div>
+                    </div>
+                </div>
+            }
+            @if (Model.Accion == Dominio.Nucleo.Enumerables.Ventanas.Listas || Model.Accion == Dominio.Nucleo.Enumerables.Ventanas.Borrar)
+            {
+                <input id="flTipo"
+                       class="cts_forms form-control"
+                       asp-for="Filtro.Descrpcion"
+                       placeholder="Buscar por descripción" />
+                <br />
+                <div class="containers_vn panel panel-default">
+                    <table class="tb_data table table-striped table-bordered table-hover">
+                        <thead>
+                            <tr>
+                                <th>Proveedor</th>
+                                <th>Fecha</th>
+                                <th>Total</th>
+                                <th>Descripción</th>
+                                <th class="cl_actions">Acciones</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var compra in Model.Lista ?? Enumerable.Empty<Dominio.Entidades.Compras>())
+                            {
+                                <tr>
+                                    <td>@compra.ProveedorId</td>
+                                    <td>@compra.Fecha.ToShortDateString()</td>
+                                    <td>@compra.Total</td>
+                                    <td>@compra.Descrpcion</td>
+                                    <td>
+                                        <form method="post" style="display:inline">
+                                            <input type="hidden" name="data" value="@compra.IdCompra" />
+                                            <button type="submit"
+                                                    asp-page-handler="BtModificar"
+                                                    class="btn btn-secondary">Modificar</button>
+                                        </form>
+                                        <form method="post" style="display:inline">
+                                            <input type="hidden" name="data" value="@compra.IdCompra" />
+                                            <button type="submit"
+                                                    asp-page-handler="BtBorrarVal"
+                                                    class="btn btn-secondary">Borrar</button>
+                                        </form>
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            }
+            @if (ViewData.ContainsKey("Mensaje"))
+            {
+                @await Html.PartialAsync("../Emergentes/Mensajes.cshtml")
+            }
+        </form>
+    </div>
+</center>

@@ -1,0 +1,97 @@
+@page
+@model asp_presentacion.Pages.Ventanas.PagosModel
+@{
+    ViewData["Titulo"] = "Gestión de Pagos";
+}
+enter>
+    <div>
+        <form method="post">
+            @Html.AntiForgeryToken()
+            <div align="left">
+                <h3>Pagos</h3>
+            </div>
+            <div align="left" class="bt_panel_buttons">
+                <input type="submit" value="Refrescar" asp-page-handler="BtRefrescar" class="btn btn-secondary" disabled="@(Model.Accion != Dominio.Nucleo.Enumerables.Ventanas.Listas)" />
+                <input type="submit" value="Nuevo" asp-page-handler="BtNuevo" class="btn btn-secondary" disabled="@(Model.Accion != Dominio.Nucleo.Enumerables.Ventanas.Listas)" />
+                <input type="submit" value="Guardar" asp-page-handler="BtGuardar" class="btn btn-secondary" disabled="@(Model.Accion == Dominio.Nucleo.Enumerables.Ventanas.Listas)" />
+                <input type="submit" value="Cancelar" asp-page-handler="BtCancelar" class="btn btn-secondary" disabled="@(Model.Accion == Dominio.Nucleo.Enumerables.Ventanas.Listas)" />
+            </div>
+            @if (Model.Accion == Dominio.Nucleo.Enumerables.Ventanas.Editar)
+            {
+                <input asp-for="Actual.IdPago" type="hidden" />
+                <div class="containers_vn panel panel-default">
+                    <h3>Editar Pago</h3>
+                    <div class="form-group">
+                        <label asp-for="Actual.VentaId" class="control-label">Venta</label>
+                        <input asp-for="Actual.VentaId" class="cts_forms form-control" />
+                        <label asp-for="Actual.MetodoPago" class="control-label">Método Pago</label>
+                        <input asp-for="Actual.MetodoPago" class="cts_forms form-control" />
+                        <label asp-for="Actual.Monto" class="control-label">Monto</label>
+                        <input asp-for="Actual.Monto" type="number" step="0.01" class="cts_forms form-control" />
+                        <label asp-for="Actual.Fecha" class="control-label">Fecha</label>
+                        <input asp-for="Actual.Fecha" type="date" class="cts_forms form-control" />
+                    </div>
+                </div>
+            }
+            @if (Model.Accion == Dominio.Nucleo.Enumerables.Ventanas.Borrar && Model.Actual != null)
+            {
+                <div class="popup">
+                    <div class="pp_del_inner">
+                        <div style="width:95%">
+                            <h2>Mensaje</h2>
+                            <h4>¿Desea borrar este pago?</h4>
+                            <h6>@Model.Actual.MetodoPago</h6>
+                            <br />
+                            <input asp-for="Actual.IdPago" type="hidden" />
+                            <input type="submit" value="Borrar" asp-page-handler="BtBorrar" class="btn btn-secondary" />
+                            <input type="submit" value="Cerrar" asp-page-handler="BtCancelar" class="btn btn-secondary" />
+                        </div>
+                    </div>
+                </div>
+            }
+            @if (Model.Accion == Dominio.Nucleo.Enumerables.Ventanas.Listas || Model.Accion == Dominio.Nucleo.Enumerables.Ventanas.Borrar)
+            {
+                <input id="flTipo" class="cts_forms form-control" asp-for="Filtro.MetodoPago" placeholder="Buscar por método de pago" />
+                <br />
+                <div class="containers_vn panel panel-default">
+                    <table class="tb_data table table-striped table-bordered table-hover">
+                        <thead>
+                            <tr>
+                                <th>Venta</th>
+                                <th>Método</th>
+                                <th>Monto</th>
+                                <th>Fecha</th>
+                                <th class="cl_actions">Acciones</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var pago in Model.Lista ?? Enumerable.Empty<Dominio.Entidades.Pagos>())
+                            {
+                                <tr>
+                                    <td>@pago.VentaId</td>
+                                    <td>@pago.MetodoPago</td>
+                                    <td>@pago.Monto</td>
+                                    <td>@pago.Fecha.ToShortDateString()</td>
+                                    <td>
+                                        <form method="post" style="display:inline">
+                                            <input type="hidden" name="data" value="@pago.IdPago" />
+                                            <button type="submit" asp-page-handler="BtModificar" class="btn btn-secondary">Modificar</button>
+                                        </form>
+                                        <form method="post" style="display:inline">
+                                            <input type="hidden" name="data" value="@pago.IdPago" />
+                                            <button type="submit" asp-page-handler="BtBorrarVal" class="btn btn-secondary">Borrar</button>
+                                        </form>
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            }
+            @if (ViewData.ContainsKey("Mensaje"))
+            {
+                @await Html.PartialAsync("../Emergentes/Mensajes.cshtml")
+            }
+        </form>
+    </div>
+</center>

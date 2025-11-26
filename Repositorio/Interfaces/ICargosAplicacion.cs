@@ -12,3 +12,4 @@ namespace Repositorio.Interfaces
         Cargos? Borrar(Cargos? entidad);
     }
 }
+

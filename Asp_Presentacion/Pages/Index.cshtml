@@ -1,10 +1,32 @@
 ﻿@page
-@model IndexModel
+@model asp_presentacion.Pages.IndexModel
 @{
-    ViewData["Title"] = "Home page";
+    ViewData["Title"] = "Inicio";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+<h2>Lista de Cargos</h2>
+
+@if (Model.Cargos == null || Model.Cargos.Count == 0)
+{
+    <p>No hay cargos para mostrar.</p>
+}
+else
+{
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Id Cargo</th>
+                <th>Nombre</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var cargo in Model.Cargos)
+            {
+                <tr>
+                    <td>@cargo.IdCargo</td>
+                    <td>@cargo.Nombre</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}

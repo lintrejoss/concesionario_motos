@@ -1,0 +1,152 @@
+using Dominio.Entidades;
+using Dominio.Nucleo;
+using lib_presentaciones.Interfaces;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.RazorPages;
+
+namespace asp_presentacion.Pages.Ventanas
+{
+    public class RepuestosModel : PageModel
+    {
+        private IRepuestosPresentacion? iPresentacion = null;
+
+        public RepuestosModel(IRepuestosPresentacion iPresentacion)
+        {
+            try
+            {
+                this.iPresentacion = iPresentacion;
+                Filtro = new Repuestos();
+            }
+            catch (Exception ex)
+            {
+                LogConversor.Log(ex, ViewData!);
+            }
+        }
+
+        [BindProperty] public Enumerables.Ventanas Accion { get; set; }
+        [BindProperty] public Repuestos? Actual { get; set; }
+        [BindProperty] public Repuestos? Filtro { get; set; }
+        [BindProperty] public List<Repuestos>? Lista { get; set; }
+
+        public virtual void OnGet() { OnPostBtRefrescar(); }
+
+        public void OnPostBtRefrescar()
+        {
+            try
+            {
+                Filtro!.Nombre = Filtro!.Nombre ?? "";
+                Accion = Enumerables.Ventanas.Listas;
+                var task = this.iPresentacion!.PorTipo(Filtro!);
+                task.Wait();
+                Lista = task.Result;
+                Actual = null;
+            }
+            catch (Exception ex)
+            {
+                LogConversor.Log(ex, ViewData!);
+            }
+        }
+
+        public virtual void OnPostBtNuevo()
+        {
+            try
+            {
+                Accion = Enumerables.Ventanas.Editar;
+                Actual = new Repuestos { Nombre = "", Referencia = "", Stock = 0, Precio = 0 };
+            }
+            catch (Exception ex)
+            {
+                LogConversor.Log(ex, ViewData!);
+            }
+        }
+
+        public virtual void OnPostBtModificar(string data)
+        {
+            try
+            {
+                OnPostBtRefrescar();
+                Accion = Enumerables.Ventanas.Editar;
+                Actual = Lista!.FirstOrDefault(x => x.IdRepuesto.ToString() == data);
+            }
+            catch (Exception ex)
+            {
+                LogConversor.Log(ex, ViewData!);
+            }
+        }
+
+        public virtual void OnPostBtGuardar()
+        {
+            try
+            {
+                Accion = Enumerables.Ventanas.Editar;
+                Task<Repuestos>? task = null;
+                if (Actual!.IdRepuesto == 0)
+                    task = this.iPresentacion!.Guardar(Actual!)!;
+                else
+                    task = this.iPresentacion!.Modificar(Actual!)!;
+                task.Wait();
+                Actual = task.Result;
+                Accion = Enumerables.Ventanas.Listas;
+                OnPostBtRefrescar();
+            }
+            catch (Exception ex)
+            {
+                LogConversor.Log(ex, ViewData!);
+            }
+        }
+
+        public virtual void OnPostBtBorrarVal(string data)
+        {
+            try
+            {
+                OnPostBtRefrescar();
+                Accion = Enumerables.Ventanas.Borrar;
+                Actual = Lista!.FirstOrDefault(x => x.IdRepuesto.ToString() == data);
+            }
+            catch (Exception ex)
+            {
+                LogConversor.Log(ex, ViewData!);
+            }
+        }
+
+        public virtual void OnPostBtBorrar()
+        {
+            try
+            {
+                var task = this.iPresentacion!.Borrar(Actual!);
+                Actual = task.Result;
+                OnPostBtRefrescar();
+            }
+            catch (Exception ex)
+            {
+                LogConversor.Log(ex, ViewData!);
+            }
+        }
+
+        public void OnPostBtCancelar()
+        {
+            try
+            {
+                Accion = Enumerables.Ventanas.Listas;
+                OnPostBtRefrescar();
+            }
+            catch (Exception ex)
+            {
+                LogConversor.Log(ex, ViewData!);
+            }
+        }
+
+        public void OnPostBtCerrar()
+        {
+            try
+            {
+                if (Accion == Enumerables.Ventanas.Listas)
+                    OnPostBtRefrescar();
+            }
+            catch (Exception ex)
+            {
+                LogConversor.Log(ex, ViewData!);
+            }
+        }
+    }
+}

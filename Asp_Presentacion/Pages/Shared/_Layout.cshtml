@@ -1,58 +1,90 @@
 ﻿<!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - asp_presentacion</title>
+    <title>@ViewData["Title"] Consecionario Motos</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/asp_presentacion.styles.css" asp-append-version="true" />
 </head>
 <body>
-    <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-            <div class="container">
-                <a class="navbar-brand" asp-area="" asp-page="/Index">asp_presentacion</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                    <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Index">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" 
-                                asp-area="" 
-                                asp-page="/Ventanas/Cargos">
-                                Cargos
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Privacy">Privacy</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    </header>
-    <div class="container">
+<style>
+    .navbar-header {
+        background-color: #00bcd4;
+        padding: 20px 0;
+    }
+    .navbar-inner {
+        display: flex;
+        align-items: center;
+        max-width: 100vw;
+    }
+    .navbar-logo {
+        height: 40px;
+        margin-left: 24px;
+        margin-right: 16px;
+    }
+    .navbar-menu {
+        overflow-x: auto;
+        white-space: nowrap;
+        flex: 1;
+        scrollbar-width: thin;
+        scrollbar-color: #120f23 #00bcd4;
+    }
+    .navbar-menu a {
+        color: white;
+        text-decoration: none;
+        margin-right: 24px;
+        font-size: 1.15em;
+        font-weight: 500;
+        padding-bottom: 3px;
+        transition: border-bottom 0.2s;
+    }
+    .navbar-menu a:hover {
+        border-bottom: 2px solid #ffffff;
+    }
+</style>
+
+<div class="navbar-header">
+    <div class="navbar-inner">
+        <img src="Imagen/logo.avif" alt="Motos" class="navbar-logo" />
+        <div class="navbar-menu">
+            <a href="/">Home</a>
+            <a href="Ventanas/Cargos">Cargos</a>
+            <a href="Ventanas/Clientes">Clientes</a>
+            <a href="Ventanas/Compras">Compras</a>
+            <a href="Ventanas/DetalleCompras">Detalle Compras</a>
+            <a href="Ventanas/DetalleVentas">Detalle Ventas</a>
+            <a href="Ventanas/Empleados">Empleados</a>
+            <a href="Ventanas/Marcas">Marcas</a>
+            <a href="Ventanas/Modelos">Modelos</a>
+            <a href="Ventanas/Motos">Motos</a>
+            <a href="Ventanas/OrdenServicios">Orden Servicios</a>
+            <a href="Ventanas/Pagos">Pagos</a>
+            <a href="Ventanas/Proveedores">Proveedores</a>
+            <a href="Ventanas/Repuestos">Repuestos</a>
+            <a href="Ventanas/Servicios">Servicios</a>
+            <a href="Ventanas/Ventas">Ventas</a>
+            <a href="Ventanas/Usuarios">Usuarios</a>
+        </div>
+    </div>
+</div>
+
+
+    <div class="container my-4">
         <main role="main" class="pb-3">
             @RenderBody()
         </main>
     </div>
 
-    <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2025 - asp_presentacion - <a asp-area="" asp-page="/Privacy">Privacy</a>
+    <footer class="border-top footer text-muted py-3 bg-light mt-auto shadow-sm">
+        <div class="container text-center">
+            &copy; 2025 - asp_presentacion - <a asp-page="/Privacy" class="text-secondary">Privacy</a>
         </div>
     </footer>
 
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
-
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>
